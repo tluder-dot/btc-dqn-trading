@@ -1,0 +1,40 @@
+{
+  "exp_id": "exp10_mr_all_history",
+  "description": "EXP-10: EXP-09 trained on all history since 2017 (17 gap-free segments, 70,202 h) instead of 3 years.",
+  "agent": "dqn",
+  "features": "mean_reversion",
+  "positions": [
+    -1,
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "env": {
+    "max_episode_duration": 721
+  },
+  "agent_params": {
+    "lr": 0.0001,
+    "gamma": 0.9,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.9909,
+    "epsilon_min": 0.01,
+    "batch_size": 64,
+    "target_update_freq": 250,
+    "replay_buffer_size": 50000,
+    "hidden_size": 128
+  },
+  "train": {
+    "episodes": 1013,
+    "eval_every": 10,
+    "val_envs": [
+      "val"
+    ],
+    "val_episodes": 5
+  },
+  "parent": "exp09_mr_features",
+  "train_start": "2017-08-17",
+  "normalize_features": true,
+  "train_segments": true,
+  "seed": 2
+}

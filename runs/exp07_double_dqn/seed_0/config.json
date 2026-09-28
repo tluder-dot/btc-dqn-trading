@@ -1,0 +1,38 @@
+{
+  "exp_id": "exp07_double_dqn",
+  "description": "EXP-07: EXP-05 with Double DQN targets (online network selects, target network evaluates).",
+  "agent": "double_dqn",
+  "features": "default",
+  "positions": [
+    -1,
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "env": {
+    "max_episode_duration": 721
+  },
+  "agent_params": {
+    "lr": 0.0001,
+    "gamma": 0.9,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.9909,
+    "epsilon_min": 0.01,
+    "batch_size": 64,
+    "target_update_freq": 250,
+    "replay_buffer_size": 50000,
+    "hidden_size": 128
+  },
+  "train": {
+    "episodes": 1013,
+    "eval_every": 10,
+    "val_envs": [
+      "val"
+    ],
+    "val_episodes": 5
+  },
+  "parent": "exp05_gamma09",
+  "train_start": "2023-04-01",
+  "seed": 0
+}

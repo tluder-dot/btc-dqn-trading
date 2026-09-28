@@ -1,0 +1,36 @@
+{
+  "exp_id": "baseline",
+  "description": "TD3 DQN (target network + replay) with TD3 hyperparameters, default features, default positions, default reward. Only change: epsilon decay per episode set so epsilon reaches its minimum after half of the training budget, as in TD3 (0.99 per episode over 1000 episodes reaches 0.01 after about 460 episodes).",
+  "agent": "dqn",
+  "features": "default",
+  "positions": [
+    -1,
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "env": {
+    "max_episode_duration": "max"
+  },
+  "agent_params": {
+    "lr": 0.0001,
+    "gamma": 0.99,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.912,
+    "epsilon_min": 0.01,
+    "batch_size": 64,
+    "target_update_freq": 250,
+    "replay_buffer_size": 50000,
+    "hidden_size": 128
+  },
+  "train": {
+    "episodes": 100,
+    "eval_every": 1,
+    "val_envs": [
+      "val"
+    ],
+    "val_episodes": 5
+  },
+  "seed": 0
+}

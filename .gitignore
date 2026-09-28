@@ -1,0 +1,20 @@
+# OS / editor
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Downloaded market data (re-created by the data pipeline)
+data/
+
+# Model weights: only the final submitted model is committed
+*.pt
+*.pth
+!models/final/*.pt
+
+# Renderer logs from evaluate_agent(render=True)
+eval/render_logs/
+
+# Course material (slides and lab notebooks of the course, not published)
+course_material/

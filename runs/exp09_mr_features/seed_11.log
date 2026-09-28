@@ -1,0 +1,1024 @@
+Downloaded data: 30,528 candles, 2023-03-25 00:00:00+00:00 to 2026-09-16 23:00:00+00:00; no missing hours
+dev_train: 28,152 candles, 2023-04-01 00:00:00+00:00 to 2026-06-16 23:00:00+00:00; no missing hours
+val: 1,464 candles, 2026-06-17 00:00:00+00:00 to 2026-08-16 23:00:00+00:00; no missing hours
+eval: 744 candles, 2026-08-17 00:00:00+00:00 to 2026-09-16 23:00:00+00:00; no missing hours
+episode   1/1013  eps 1.000  train return   -7.54%  loss 1.64e-03  maxQ +0.2039  changes   566  0.0 min
+episode   2/1013  eps 0.991  train return   -1.56%  loss 7.33e-04  maxQ +0.2093  changes   573  0.0 min
+episode   3/1013  eps 0.982  train return  -22.85%  loss 4.71e-04  maxQ +0.1967  changes   568  0.0 min
+episode   4/1013  eps 0.973  train return  -25.52%  loss 3.46e-04  maxQ +0.1829  changes   590  0.0 min
+episode   5/1013  eps 0.964  train return  -11.39%  loss 2.60e-04  maxQ +0.1752  changes   552  0.0 min
+episode   6/1013  eps 0.955  train return  +29.95%  loss 2.53e-04  maxQ +0.1614  changes   577  0.1 min
+episode   7/1013  eps 0.947  train return   -3.19%  loss 1.94e-04  maxQ +0.1536  changes   579  0.1 min
+episode   8/1013  eps 0.938  train return  -32.40%  loss 1.68e-04  maxQ +0.1430  changes   579  0.1 min
+episode   9/1013  eps 0.929  train return   +7.71%  loss 1.90e-04  maxQ +0.1341  changes   572  0.1 min
+episode  10/1013  eps 0.921  train return  +10.37%  loss 1.75e-04  maxQ +0.1236  changes   584  0.1 min | val return -17.13% (best -17.13%)
+episode  11/1013  eps 0.913  train return  -10.50%  loss 1.46e-04  maxQ +0.1173  changes   573  0.1 min
+episode  12/1013  eps 0.904  train return  -11.62%  loss 1.54e-04  maxQ +0.1134  changes   566  0.1 min
+episode  13/1013  eps 0.896  train return   +1.13%  loss 2.17e-04  maxQ +0.1134  changes   580  0.1 min
+episode  14/1013  eps 0.888  train return   +0.24%  loss 1.93e-04  maxQ +0.1092  changes   583  0.1 min
+episode  15/1013  eps 0.880  train return  +22.73%  loss 1.74e-04  maxQ +0.1049  changes   574  0.1 min
+episode  16/1013  eps 0.872  train return  -32.76%  loss 1.69e-04  maxQ +0.0986  changes   570  0.2 min
+episode  17/1013  eps 0.864  train return   -4.85%  loss 1.46e-04  maxQ +0.1003  changes   588  0.2 min
+episode  18/1013  eps 0.856  train return  -17.91%  loss 1.48e-04  maxQ +0.0914  changes   554  0.2 min
+episode  19/1013  eps 0.848  train return  -17.22%  loss 1.70e-04  maxQ +0.0877  changes   567  0.2 min
+episode  20/1013  eps 0.841  train return   -7.23%  loss 2.25e-04  maxQ +0.0877  changes   585  0.2 min | val return -29.39% (best -17.13%)
+episode  21/1013  eps 0.833  train return  -24.01%  loss 1.51e-04  maxQ +0.0851  changes   565  0.2 min
+episode  22/1013  eps 0.825  train return   +9.55%  loss 1.46e-04  maxQ +0.0825  changes   566  0.2 min
+episode  23/1013  eps 0.818  train return  +19.91%  loss 1.63e-04  maxQ +0.0803  changes   579  0.2 min
+episode  24/1013  eps 0.810  train return   +7.40%  loss 1.37e-04  maxQ +0.0762  changes   577  0.2 min
+episode  25/1013  eps 0.803  train return   -6.75%  loss 1.44e-04  maxQ +0.0748  changes   585  0.2 min
+episode  26/1013  eps 0.796  train return  -20.46%  loss 1.51e-04  maxQ +0.0751  changes   585  0.3 min
+episode  27/1013  eps 0.788  train return   -6.40%  loss 1.34e-04  maxQ +0.0728  changes   562  0.3 min
+episode  28/1013  eps 0.781  train return  -14.70%  loss 1.11e-04  maxQ +0.0684  changes   564  0.3 min
+episode  29/1013  eps 0.774  train return  -32.22%  loss 1.27e-04  maxQ +0.0735  changes   564  0.3 min
+episode  30/1013  eps 0.767  train return   -3.02%  loss 1.21e-04  maxQ +0.0665  changes   591  0.3 min | val return -14.11% (best -14.11%)
+episode  31/1013  eps 0.760  train return   -8.07%  loss 1.32e-04  maxQ +0.0709  changes   556  0.3 min
+episode  32/1013  eps 0.753  train return   +7.44%  loss 1.24e-04  maxQ +0.0642  changes   572  0.3 min
+episode  33/1013  eps 0.746  train return  +15.01%  loss 9.75e-05  maxQ +0.0616  changes   579  0.3 min
+episode  34/1013  eps 0.740  train return  +14.46%  loss 1.04e-04  maxQ +0.0597  changes   577  0.3 min
+episode  35/1013  eps 0.733  train return  -11.31%  loss 9.99e-05  maxQ +0.0579  changes   596  0.4 min
+episode  36/1013  eps 0.726  train return  -20.85%  loss 9.88e-05  maxQ +0.0597  changes   575  0.4 min
+episode  37/1013  eps 0.720  train return   -8.47%  loss 9.27e-05  maxQ +0.0577  changes   593  0.4 min
+episode  38/1013  eps 0.713  train return   +3.52%  loss 9.64e-05  maxQ +0.0543  changes   580  0.4 min
+episode  39/1013  eps 0.707  train return  -11.56%  loss 9.64e-05  maxQ +0.0553  changes   585  0.4 min
+episode  40/1013  eps 0.700  train return  -31.64%  loss 1.02e-04  maxQ +0.0521  changes   552  0.4 min | val return -12.09% (best -12.09%)
+episode  41/1013  eps 0.694  train return   +0.31%  loss 7.14e-05  maxQ +0.0470  changes   584  0.4 min
+episode  42/1013  eps 0.687  train return   +8.56%  loss 7.61e-05  maxQ +0.0470  changes   555  0.4 min
+episode  43/1013  eps 0.681  train return  -13.04%  loss 9.13e-05  maxQ +0.0461  changes   578  0.4 min
+episode  44/1013  eps 0.675  train return   +6.32%  loss 7.88e-05  maxQ +0.0473  changes   551  0.4 min
+episode  45/1013  eps 0.669  train return   -3.17%  loss 7.15e-05  maxQ +0.0426  changes   547  0.5 min
+episode  46/1013  eps 0.663  train return  -18.87%  loss 6.66e-05  maxQ +0.0435  changes   555  0.5 min
+episode  47/1013  eps 0.657  train return   +2.93%  loss 6.91e-05  maxQ +0.0425  changes   567  0.5 min
+episode  48/1013  eps 0.651  train return   -5.74%  loss 6.89e-05  maxQ +0.0420  changes   578  0.5 min
+episode  49/1013  eps 0.645  train return  -26.52%  loss 7.41e-05  maxQ +0.0404  changes   563  0.5 min
+episode  50/1013  eps 0.639  train return  -10.70%  loss 7.82e-05  maxQ +0.0414  changes   574  0.5 min | val return +1.68% (best +1.68%)
+episode  51/1013  eps 0.633  train return   -1.39%  loss 8.28e-05  maxQ +0.0417  changes   564  0.5 min
+episode  52/1013  eps 0.627  train return   +0.94%  loss 8.32e-05  maxQ +0.0427  changes   551  0.5 min
+episode  53/1013  eps 0.622  train return  -12.87%  loss 7.89e-05  maxQ +0.0425  changes   556  0.5 min
+episode  54/1013  eps 0.616  train return  +13.22%  loss 6.80e-05  maxQ +0.0413  changes   574  0.5 min
+episode  55/1013  eps 0.610  train return   +8.98%  loss 6.89e-05  maxQ +0.0385  changes   583  0.6 min
+episode  56/1013  eps 0.605  train return  -17.33%  loss 6.22e-05  maxQ +0.0383  changes   549  0.6 min
+episode  57/1013  eps 0.599  train return  -11.85%  loss 7.56e-05  maxQ +0.0403  changes   580  0.6 min
+episode  58/1013  eps 0.594  train return  +17.00%  loss 6.50e-05  maxQ +0.0389  changes   549  0.6 min
+episode  59/1013  eps 0.588  train return   -0.71%  loss 6.25e-05  maxQ +0.0389  changes   562  0.6 min
+episode  60/1013  eps 0.583  train return  +15.68%  loss 6.23e-05  maxQ +0.0368  changes   560  0.6 min | val return +3.12% (best +3.12%)
+episode  61/1013  eps 0.578  train return  -11.88%  loss 5.48e-05  maxQ +0.0337  changes   558  0.6 min
+episode  62/1013  eps 0.573  train return   -6.10%  loss 4.89e-05  maxQ +0.0344  changes   561  0.6 min
+episode  63/1013  eps 0.567  train return  -18.15%  loss 5.30e-05  maxQ +0.0347  changes   551  0.6 min
+episode  64/1013  eps 0.562  train return   +6.95%  loss 5.06e-05  maxQ +0.0342  changes   552  0.6 min
+episode  65/1013  eps 0.557  train return  -12.21%  loss 4.68e-05  maxQ +0.0324  changes   565  0.7 min
+episode  66/1013  eps 0.552  train return   +0.32%  loss 5.12e-05  maxQ +0.0296  changes   551  0.7 min
+episode  67/1013  eps 0.547  train return   +4.28%  loss 5.24e-05  maxQ +0.0320  changes   540  0.7 min
+episode  68/1013  eps 0.542  train return   -8.47%  loss 4.57e-05  maxQ +0.0294  changes   564  0.7 min
+episode  69/1013  eps 0.537  train return   -5.34%  loss 5.00e-05  maxQ +0.0296  changes   560  0.7 min
+episode  70/1013  eps 0.532  train return   -6.11%  loss 4.26e-05  maxQ +0.0285  changes   548  0.7 min | val return +2.17% (best +3.12%)
+episode  71/1013  eps 0.527  train return   -5.08%  loss 5.19e-05  maxQ +0.0289  changes   548  0.7 min
+episode  72/1013  eps 0.523  train return  -10.92%  loss 4.80e-05  maxQ +0.0301  changes   535  0.7 min
+episode  73/1013  eps 0.518  train return  +38.10%  loss 4.50e-05  maxQ +0.0295  changes   545  0.7 min
+episode  74/1013  eps 0.513  train return  -30.12%  loss 4.29e-05  maxQ +0.0283  changes   531  0.8 min
+episode  75/1013  eps 0.508  train return  +13.64%  loss 4.56e-05  maxQ +0.0268  changes   545  0.8 min
+episode  76/1013  eps 0.504  train return  +42.38%  loss 4.54e-05  maxQ +0.0254  changes   561  0.8 min
+episode  77/1013  eps 0.499  train return  +10.02%  loss 4.72e-05  maxQ +0.0255  changes   554  0.8 min
+episode  78/1013  eps 0.495  train return   +6.17%  loss 4.50e-05  maxQ +0.0222  changes   553  0.8 min
+episode  79/1013  eps 0.490  train return  +16.27%  loss 4.65e-05  maxQ +0.0244  changes   523  0.8 min
+episode  80/1013  eps 0.486  train return   +4.65%  loss 4.50e-05  maxQ +0.0242  changes   555  0.8 min | val return +24.00% (best +24.00%)
+episode  81/1013  eps 0.481  train return  +21.22%  loss 4.75e-05  maxQ +0.0262  changes   513  0.8 min
+episode  82/1013  eps 0.477  train return   -9.31%  loss 4.18e-05  maxQ +0.0268  changes   532  0.8 min
+episode  83/1013  eps 0.473  train return   +6.84%  loss 4.43e-05  maxQ +0.0245  changes   541  0.9 min
+episode  84/1013  eps 0.468  train return   +7.87%  loss 4.59e-05  maxQ +0.0246  changes   530  0.9 min
+episode  85/1013  eps 0.464  train return  -22.23%  loss 4.41e-05  maxQ +0.0231  changes   527  0.9 min
+episode  86/1013  eps 0.460  train return   -1.61%  loss 4.32e-05  maxQ +0.0228  changes   549  0.9 min
+episode  87/1013  eps 0.456  train return  -19.94%  loss 4.01e-05  maxQ +0.0222  changes   524  0.9 min
+episode  88/1013  eps 0.451  train return  +43.17%  loss 4.09e-05  maxQ +0.0213  changes   586  0.9 min
+episode  89/1013  eps 0.447  train return  -28.06%  loss 4.31e-05  maxQ +0.0213  changes   570  0.9 min
+episode  90/1013  eps 0.443  train return  +16.77%  loss 4.04e-05  maxQ +0.0226  changes   542  0.9 min | val return -13.66% (best +24.00%)
+episode  91/1013  eps 0.439  train return   -5.12%  loss 4.57e-05  maxQ +0.0216  changes   542  0.9 min
+episode  92/1013  eps 0.435  train return   -4.43%  loss 4.19e-05  maxQ +0.0208  changes   536  0.9 min
+episode  93/1013  eps 0.431  train return  +22.33%  loss 4.23e-05  maxQ +0.0215  changes   527  1.0 min
+episode  94/1013  eps 0.427  train return   +1.78%  loss 4.26e-05  maxQ +0.0217  changes   548  1.0 min
+episode  95/1013  eps 0.423  train return  +10.26%  loss 4.18e-05  maxQ +0.0215  changes   541  1.0 min
+episode  96/1013  eps 0.420  train return  +13.81%  loss 4.10e-05  maxQ +0.0207  changes   532  1.0 min
+episode  97/1013  eps 0.416  train return  -26.81%  loss 3.81e-05  maxQ +0.0202  changes   558  1.0 min
+episode  98/1013  eps 0.412  train return   +1.91%  loss 4.25e-05  maxQ +0.0195  changes   528  1.0 min
+episode  99/1013  eps 0.408  train return   -3.02%  loss 4.27e-05  maxQ +0.0191  changes   544  1.0 min
+episode 100/1013  eps 0.405  train return  +20.86%  loss 4.36e-05  maxQ +0.0213  changes   531  1.0 min | val return -9.98% (best +24.00%)
+episode 101/1013  eps 0.401  train return  +11.65%  loss 4.32e-05  maxQ +0.0209  changes   571  1.0 min
+episode 102/1013  eps 0.397  train return  -13.63%  loss 4.08e-05  maxQ +0.0191  changes   526  1.1 min
+episode 103/1013  eps 0.394  train return  +19.09%  loss 4.45e-05  maxQ +0.0189  changes   501  1.1 min
+episode 104/1013  eps 0.390  train return  +17.41%  loss 4.30e-05  maxQ +0.0179  changes   560  1.1 min
+episode 105/1013  eps 0.386  train return   +0.02%  loss 4.30e-05  maxQ +0.0179  changes   538  1.1 min
+episode 106/1013  eps 0.383  train return  +17.20%  loss 5.30e-05  maxQ +0.0187  changes   525  1.1 min
+episode 107/1013  eps 0.379  train return   +3.87%  loss 4.03e-05  maxQ +0.0173  changes   555  1.1 min
+episode 108/1013  eps 0.376  train return  +26.09%  loss 4.55e-05  maxQ +0.0188  changes   512  1.1 min
+episode 109/1013  eps 0.373  train return  +47.36%  loss 4.12e-05  maxQ +0.0177  changes   532  1.1 min
+episode 110/1013  eps 0.369  train return   -3.07%  loss 4.05e-05  maxQ +0.0172  changes   514  1.1 min | val return -11.08% (best +24.00%)
+episode 111/1013  eps 0.366  train return  -29.09%  loss 3.75e-05  maxQ +0.0172  changes   535  1.2 min
+episode 112/1013  eps 0.363  train return   -2.84%  loss 3.91e-05  maxQ +0.0177  changes   536  1.2 min
+episode 113/1013  eps 0.359  train return  +28.47%  loss 3.68e-05  maxQ +0.0180  changes   529  1.2 min
+episode 114/1013  eps 0.356  train return  +37.12%  loss 3.71e-05  maxQ +0.0188  changes   513  1.2 min
+episode 115/1013  eps 0.353  train return   +1.03%  loss 3.84e-05  maxQ +0.0193  changes   520  1.2 min
+episode 116/1013  eps 0.349  train return   -4.36%  loss 3.70e-05  maxQ +0.0198  changes   496  1.2 min
+episode 117/1013  eps 0.346  train return  -19.01%  loss 4.01e-05  maxQ +0.0194  changes   533  1.2 min
+episode 118/1013  eps 0.343  train return   +6.71%  loss 3.94e-05  maxQ +0.0195  changes   540  1.2 min
+episode 119/1013  eps 0.340  train return   -7.93%  loss 4.01e-05  maxQ +0.0193  changes   499  1.2 min
+episode 120/1013  eps 0.337  train return   +1.32%  loss 3.93e-05  maxQ +0.0190  changes   520  1.2 min | val return -7.54% (best +24.00%)
+episode 121/1013  eps 0.334  train return   +4.68%  loss 4.09e-05  maxQ +0.0183  changes   532  1.3 min
+episode 122/1013  eps 0.331  train return   +0.50%  loss 3.98e-05  maxQ +0.0184  changes   517  1.3 min
+episode 123/1013  eps 0.328  train return   +6.13%  loss 4.00e-05  maxQ +0.0183  changes   550  1.3 min
+episode 124/1013  eps 0.325  train return  +35.17%  loss 3.61e-05  maxQ +0.0184  changes   500  1.3 min
+episode 125/1013  eps 0.322  train return  -20.84%  loss 4.01e-05  maxQ +0.0191  changes   497  1.3 min
+episode 126/1013  eps 0.319  train return   -8.13%  loss 4.02e-05  maxQ +0.0195  changes   505  1.3 min
+episode 127/1013  eps 0.316  train return  +30.36%  loss 4.46e-05  maxQ +0.0195  changes   525  1.3 min
+episode 128/1013  eps 0.313  train return   +4.19%  loss 4.65e-05  maxQ +0.0186  changes   524  1.3 min
+episode 129/1013  eps 0.310  train return  +58.84%  loss 4.48e-05  maxQ +0.0193  changes   545  1.3 min
+episode 130/1013  eps 0.308  train return   -8.76%  loss 3.93e-05  maxQ +0.0188  changes   514  1.4 min | val return -19.88% (best +24.00%)
+episode 131/1013  eps 0.305  train return   +7.43%  loss 4.09e-05  maxQ +0.0171  changes   528  1.4 min
+episode 132/1013  eps 0.302  train return  +12.56%  loss 4.10e-05  maxQ +0.0183  changes   479  1.4 min
+episode 133/1013  eps 0.299  train return   +2.09%  loss 4.16e-05  maxQ +0.0179  changes   498  1.4 min
+episode 134/1013  eps 0.296  train return   +1.11%  loss 3.92e-05  maxQ +0.0173  changes   533  1.4 min
+episode 135/1013  eps 0.294  train return  -23.58%  loss 3.99e-05  maxQ +0.0183  changes   535  1.4 min
+episode 136/1013  eps 0.291  train return  +11.48%  loss 4.23e-05  maxQ +0.0185  changes   500  1.4 min
+episode 137/1013  eps 0.288  train return   +9.88%  loss 4.23e-05  maxQ +0.0190  changes   534  1.4 min
+episode 138/1013  eps 0.286  train return  +25.39%  loss 3.89e-05  maxQ +0.0210  changes   527  1.4 min
+episode 139/1013  eps 0.283  train return   -1.66%  loss 4.10e-05  maxQ +0.0193  changes   478  1.5 min
+episode 140/1013  eps 0.281  train return  +34.12%  loss 4.46e-05  maxQ +0.0199  changes   512  1.5 min | val return -9.78% (best +24.00%)
+episode 141/1013  eps 0.278  train return   -4.35%  loss 4.53e-05  maxQ +0.0187  changes   515  1.5 min
+episode 142/1013  eps 0.276  train return  +24.23%  loss 4.35e-05  maxQ +0.0189  changes   537  1.5 min
+episode 143/1013  eps 0.273  train return  +20.96%  loss 4.11e-05  maxQ +0.0177  changes   519  1.5 min
+episode 144/1013  eps 0.271  train return  +79.69%  loss 4.34e-05  maxQ +0.0185  changes   514  1.5 min
+episode 145/1013  eps 0.268  train return   -9.77%  loss 4.40e-05  maxQ +0.0183  changes   508  1.5 min
+episode 146/1013  eps 0.266  train return   -5.99%  loss 4.07e-05  maxQ +0.0179  changes   520  1.5 min
+episode 147/1013  eps 0.263  train return   +8.45%  loss 3.99e-05  maxQ +0.0184  changes   525  1.5 min
+episode 148/1013  eps 0.261  train return  +34.06%  loss 4.19e-05  maxQ +0.0168  changes   543  1.5 min
+episode 149/1013  eps 0.258  train return  -15.96%  loss 3.84e-05  maxQ +0.0165  changes   451  1.6 min
+episode 150/1013  eps 0.256  train return   -4.80%  loss 3.74e-05  maxQ +0.0161  changes   477  1.6 min | val return -11.91% (best +24.00%)
+episode 151/1013  eps 0.254  train return   +4.28%  loss 4.04e-05  maxQ +0.0173  changes   508  1.6 min
+episode 152/1013  eps 0.251  train return   +5.57%  loss 3.83e-05  maxQ +0.0167  changes   520  1.6 min
+episode 153/1013  eps 0.249  train return   +1.57%  loss 3.94e-05  maxQ +0.0177  changes   519  1.6 min
+episode 154/1013  eps 0.247  train return  -14.20%  loss 3.86e-05  maxQ +0.0170  changes   535  1.6 min
+episode 155/1013  eps 0.245  train return   -7.66%  loss 4.02e-05  maxQ +0.0180  changes   506  1.6 min
+episode 156/1013  eps 0.242  train return  +71.81%  loss 4.06e-05  maxQ +0.0169  changes   519  1.6 min
+episode 157/1013  eps 0.240  train return   +8.42%  loss 3.87e-05  maxQ +0.0173  changes   502  1.6 min
+episode 158/1013  eps 0.238  train return   +9.64%  loss 3.92e-05  maxQ +0.0172  changes   507  1.7 min
+episode 159/1013  eps 0.236  train return  -12.00%  loss 3.99e-05  maxQ +0.0167  changes   503  1.7 min
+episode 160/1013  eps 0.234  train return  +33.83%  loss 3.85e-05  maxQ +0.0165  changes   535  1.7 min | val return -14.22% (best +24.00%)
+episode 161/1013  eps 0.232  train return   -6.69%  loss 3.81e-05  maxQ +0.0157  changes   473  1.7 min
+episode 162/1013  eps 0.230  train return  -27.72%  loss 3.71e-05  maxQ +0.0158  changes   531  1.7 min
+episode 163/1013  eps 0.227  train return  +53.92%  loss 3.60e-05  maxQ +0.0154  changes   518  1.7 min
+episode 164/1013  eps 0.225  train return  +30.07%  loss 3.63e-05  maxQ +0.0155  changes   528  1.7 min
+episode 165/1013  eps 0.223  train return  +58.41%  loss 3.60e-05  maxQ +0.0153  changes   516  1.7 min
+episode 166/1013  eps 0.221  train return   -8.43%  loss 3.55e-05  maxQ +0.0158  changes   438  1.7 min
+episode 167/1013  eps 0.219  train return   +3.93%  loss 3.79e-05  maxQ +0.0163  changes   514  1.8 min
+episode 168/1013  eps 0.217  train return  +24.28%  loss 3.80e-05  maxQ +0.0166  changes   529  1.8 min
+episode 169/1013  eps 0.215  train return   -0.15%  loss 3.93e-05  maxQ +0.0168  changes   501  1.8 min
+episode 170/1013  eps 0.213  train return   +6.96%  loss 4.03e-05  maxQ +0.0169  changes   466  1.8 min | val return -21.30% (best +24.00%)
+episode 171/1013  eps 0.211  train return +112.92%  loss 3.61e-05  maxQ +0.0170  changes   491  1.8 min
+episode 172/1013  eps 0.209  train return   -2.17%  loss 3.87e-05  maxQ +0.0171  changes   508  1.8 min
+episode 173/1013  eps 0.208  train return   +7.28%  loss 3.69e-05  maxQ +0.0164  changes   498  1.8 min
+episode 174/1013  eps 0.206  train return  +21.10%  loss 3.98e-05  maxQ +0.0172  changes   519  1.8 min
+episode 175/1013  eps 0.204  train return  +24.42%  loss 4.20e-05  maxQ +0.0156  changes   486  1.8 min
+episode 176/1013  eps 0.202  train return  +34.08%  loss 3.90e-05  maxQ +0.0169  changes   502  1.9 min
+episode 177/1013  eps 0.200  train return  +11.43%  loss 4.40e-05  maxQ +0.0181  changes   515  1.9 min
+episode 178/1013  eps 0.198  train return  +26.61%  loss 3.82e-05  maxQ +0.0168  changes   481  1.9 min
+episode 179/1013  eps 0.196  train return  +32.19%  loss 3.85e-05  maxQ +0.0171  changes   491  1.9 min
+episode 180/1013  eps 0.195  train return   -0.34%  loss 4.12e-05  maxQ +0.0167  changes   510  1.9 min | val return -29.72% (best +24.00%)
+episode 181/1013  eps 0.193  train return  +29.48%  loss 4.18e-05  maxQ +0.0165  changes   508  1.9 min
+episode 182/1013  eps 0.191  train return   -6.46%  loss 4.41e-05  maxQ +0.0166  changes   484  1.9 min
+episode 183/1013  eps 0.189  train return  +40.62%  loss 4.00e-05  maxQ +0.0171  changes   532  1.9 min
+episode 184/1013  eps 0.188  train return  +18.09%  loss 4.33e-05  maxQ +0.0170  changes   506  1.9 min
+episode 185/1013  eps 0.186  train return  +11.86%  loss 3.89e-05  maxQ +0.0164  changes   491  1.9 min
+episode 186/1013  eps 0.184  train return   +3.53%  loss 4.12e-05  maxQ +0.0168  changes   482  2.0 min
+episode 187/1013  eps 0.183  train return   -4.74%  loss 4.17e-05  maxQ +0.0175  changes   466  2.0 min
+episode 188/1013  eps 0.181  train return  +19.30%  loss 3.85e-05  maxQ +0.0167  changes   480  2.0 min
+episode 189/1013  eps 0.179  train return  -11.73%  loss 3.53e-05  maxQ +0.0165  changes   478  2.0 min
+episode 190/1013  eps 0.178  train return   +1.14%  loss 4.01e-05  maxQ +0.0159  changes   471  2.0 min | val return -0.53% (best +24.00%)
+episode 191/1013  eps 0.176  train return   -7.39%  loss 3.82e-05  maxQ +0.0167  changes   491  2.0 min
+episode 192/1013  eps 0.174  train return  +14.29%  loss 3.97e-05  maxQ +0.0165  changes   478  2.0 min
+episode 193/1013  eps 0.173  train return  +47.25%  loss 3.63e-05  maxQ +0.0159  changes   485  2.0 min
+episode 194/1013  eps 0.171  train return  +35.26%  loss 3.76e-05  maxQ +0.0169  changes   552  2.0 min
+episode 195/1013  eps 0.170  train return  +61.75%  loss 3.68e-05  maxQ +0.0169  changes   504  2.1 min
+episode 196/1013  eps 0.168  train return   +6.88%  loss 3.66e-05  maxQ +0.0151  changes   528  2.1 min
+episode 197/1013  eps 0.167  train return   +0.51%  loss 3.87e-05  maxQ +0.0163  changes   530  2.1 min
+episode 198/1013  eps 0.165  train return  +28.14%  loss 4.01e-05  maxQ +0.0168  changes   539  2.1 min
+episode 199/1013  eps 0.164  train return  +76.51%  loss 3.83e-05  maxQ +0.0171  changes   484  2.1 min
+episode 200/1013  eps 0.162  train return   -9.68%  loss 3.80e-05  maxQ +0.0168  changes   517  2.1 min | val return -32.54% (best +24.00%)
+episode 201/1013  eps 0.161  train return  +23.64%  loss 3.98e-05  maxQ +0.0174  changes   491  2.1 min
+episode 202/1013  eps 0.159  train return  +32.41%  loss 3.79e-05  maxQ +0.0168  changes   529  2.1 min
+episode 203/1013  eps 0.158  train return   -6.36%  loss 3.87e-05  maxQ +0.0167  changes   482  2.1 min
+episode 204/1013  eps 0.156  train return  +13.34%  loss 3.76e-05  maxQ +0.0171  changes   504  2.2 min
+episode 205/1013  eps 0.155  train return  -13.67%  loss 3.87e-05  maxQ +0.0170  changes   506  2.2 min
+episode 206/1013  eps 0.154  train return  +47.32%  loss 3.95e-05  maxQ +0.0163  changes   517  2.2 min
+episode 207/1013  eps 0.152  train return  +77.06%  loss 3.99e-05  maxQ +0.0159  changes   524  2.2 min
+episode 208/1013  eps 0.151  train return  +28.53%  loss 4.32e-05  maxQ +0.0176  changes   544  2.2 min
+episode 209/1013  eps 0.149  train return  +34.26%  loss 4.06e-05  maxQ +0.0171  changes   515  2.2 min
+episode 210/1013  eps 0.148  train return  +21.01%  loss 3.94e-05  maxQ +0.0169  changes   507  2.2 min | val return -19.87% (best +24.00%)
+episode 211/1013  eps 0.147  train return  +78.82%  loss 4.28e-05  maxQ +0.0166  changes   507  2.2 min
+episode 212/1013  eps 0.145  train return  +51.17%  loss 4.41e-05  maxQ +0.0167  changes   517  2.2 min
+episode 213/1013  eps 0.144  train return   -2.06%  loss 4.10e-05  maxQ +0.0166  changes   527  2.2 min
+episode 214/1013  eps 0.143  train return   +6.24%  loss 4.13e-05  maxQ +0.0162  changes   503  2.3 min
+episode 215/1013  eps 0.141  train return  +19.23%  loss 3.90e-05  maxQ +0.0169  changes   483  2.3 min
+episode 216/1013  eps 0.140  train return  +31.48%  loss 4.06e-05  maxQ +0.0169  changes   473  2.3 min
+episode 217/1013  eps 0.139  train return   +6.26%  loss 4.05e-05  maxQ +0.0162  changes   452  2.3 min
+episode 218/1013  eps 0.138  train return  +34.33%  loss 3.99e-05  maxQ +0.0168  changes   527  2.3 min
+episode 219/1013  eps 0.136  train return   +3.75%  loss 3.94e-05  maxQ +0.0172  changes   480  2.3 min
+episode 220/1013  eps 0.135  train return  +27.32%  loss 3.88e-05  maxQ +0.0167  changes   514  2.3 min | val return -16.02% (best +24.00%)
+episode 221/1013  eps 0.134  train return   -2.47%  loss 4.11e-05  maxQ +0.0167  changes   469  2.3 min
+episode 222/1013  eps 0.133  train return  +12.98%  loss 4.16e-05  maxQ +0.0163  changes   466  2.3 min
+episode 223/1013  eps 0.131  train return  +15.63%  loss 3.91e-05  maxQ +0.0157  changes   461  2.4 min
+episode 224/1013  eps 0.130  train return  +74.47%  loss 4.29e-05  maxQ +0.0161  changes   516  2.4 min
+episode 225/1013  eps 0.129  train return  +24.93%  loss 4.02e-05  maxQ +0.0161  changes   494  2.4 min
+episode 226/1013  eps 0.128  train return  +32.54%  loss 4.02e-05  maxQ +0.0161  changes   455  2.4 min
+episode 227/1013  eps 0.127  train return  +14.13%  loss 4.16e-05  maxQ +0.0168  changes   506  2.4 min
+episode 228/1013  eps 0.126  train return  +24.57%  loss 3.87e-05  maxQ +0.0162  changes   452  2.4 min
+episode 229/1013  eps 0.124  train return  +90.52%  loss 4.04e-05  maxQ +0.0168  changes   536  2.4 min
+episode 230/1013  eps 0.123  train return  +53.61%  loss 4.31e-05  maxQ +0.0160  changes   526  2.4 min | val return -33.08% (best +24.00%)
+episode 231/1013  eps 0.122  train return  +28.36%  loss 4.31e-05  maxQ +0.0162  changes   510  2.4 min
+episode 232/1013  eps 0.121  train return  +27.45%  loss 4.21e-05  maxQ +0.0159  changes   504  2.5 min
+episode 233/1013  eps 0.120  train return  +52.68%  loss 4.04e-05  maxQ +0.0158  changes   504  2.5 min
+episode 234/1013  eps 0.119  train return  -13.87%  loss 3.80e-05  maxQ +0.0165  changes   467  2.5 min
+episode 235/1013  eps 0.118  train return  +45.65%  loss 4.01e-05  maxQ +0.0156  changes   514  2.5 min
+episode 236/1013  eps 0.117  train return  -14.89%  loss 4.16e-05  maxQ +0.0159  changes   449  2.5 min
+episode 237/1013  eps 0.116  train return  +47.05%  loss 4.24e-05  maxQ +0.0158  changes   496  2.5 min
+episode 238/1013  eps 0.115  train return  +45.49%  loss 4.10e-05  maxQ +0.0163  changes   494  2.5 min
+episode 239/1013  eps 0.114  train return  +51.65%  loss 4.03e-05  maxQ +0.0162  changes   475  2.5 min
+episode 240/1013  eps 0.112  train return  +14.19%  loss 4.34e-05  maxQ +0.0171  changes   514  2.5 min | val return -26.72% (best +24.00%)
+episode 241/1013  eps 0.111  train return  +72.21%  loss 4.53e-05  maxQ +0.0169  changes   499  2.6 min
+episode 242/1013  eps 0.110  train return  +42.20%  loss 4.43e-05  maxQ +0.0161  changes   511  2.6 min
+episode 243/1013  eps 0.109  train return  +12.71%  loss 4.17e-05  maxQ +0.0166  changes   515  2.6 min
+episode 244/1013  eps 0.108  train return  +15.93%  loss 4.10e-05  maxQ +0.0152  changes   527  2.6 min
+episode 245/1013  eps 0.107  train return  +89.76%  loss 4.50e-05  maxQ +0.0167  changes   506  2.6 min
+episode 246/1013  eps 0.106  train return  +36.88%  loss 4.34e-05  maxQ +0.0166  changes   491  2.6 min
+episode 247/1013  eps 0.106  train return   -5.60%  loss 4.15e-05  maxQ +0.0169  changes   463  2.6 min
+episode 248/1013  eps 0.105  train return  +23.40%  loss 4.14e-05  maxQ +0.0167  changes   503  2.6 min
+episode 249/1013  eps 0.104  train return   -8.95%  loss 4.21e-05  maxQ +0.0178  changes   423  2.6 min
+episode 250/1013  eps 0.103  train return  +29.40%  loss 4.21e-05  maxQ +0.0168  changes   507  2.6 min | val return -26.51% (best +24.00%)
+episode 251/1013  eps 0.102  train return   +7.01%  loss 4.04e-05  maxQ +0.0162  changes   469  2.7 min
+episode 252/1013  eps 0.101  train return  +42.07%  loss 4.48e-05  maxQ +0.0163  changes   497  2.7 min
+episode 253/1013  eps 0.100  train return  +57.39%  loss 4.30e-05  maxQ +0.0160  changes   489  2.7 min
+episode 254/1013  eps 0.099  train return  +26.43%  loss 4.36e-05  maxQ +0.0162  changes   530  2.7 min
+episode 255/1013  eps 0.098  train return +152.96%  loss 4.07e-05  maxQ +0.0158  changes   505  2.7 min
+episode 256/1013  eps 0.097  train return   -5.25%  loss 3.88e-05  maxQ +0.0158  changes   499  2.7 min
+episode 257/1013  eps 0.096  train return   +6.87%  loss 3.95e-05  maxQ +0.0155  changes   459  2.7 min
+episode 258/1013  eps 0.095  train return   -3.38%  loss 4.05e-05  maxQ +0.0160  changes   492  2.7 min
+episode 259/1013  eps 0.095  train return   -0.99%  loss 4.12e-05  maxQ +0.0164  changes   481  2.7 min
+episode 260/1013  eps 0.094  train return  +16.42%  loss 4.09e-05  maxQ +0.0157  changes   461  2.8 min | val return -3.28% (best +24.00%)
+episode 261/1013  eps 0.093  train return  +32.36%  loss 4.15e-05  maxQ +0.0162  changes   467  2.8 min
+episode 262/1013  eps 0.092  train return  +34.01%  loss 4.20e-05  maxQ +0.0166  changes   498  2.8 min
+episode 263/1013  eps 0.091  train return  +22.61%  loss 4.34e-05  maxQ +0.0163  changes   454  2.8 min
+episode 264/1013  eps 0.090  train return  +24.04%  loss 3.79e-05  maxQ +0.0163  changes   471  2.8 min
+episode 265/1013  eps 0.090  train return  +15.49%  loss 3.98e-05  maxQ +0.0159  changes   468  2.8 min
+episode 266/1013  eps 0.089  train return +102.00%  loss 4.12e-05  maxQ +0.0162  changes   530  2.8 min
+episode 267/1013  eps 0.088  train return  +33.76%  loss 4.27e-05  maxQ +0.0166  changes   443  2.8 min
+episode 268/1013  eps 0.087  train return  +23.57%  loss 4.06e-05  maxQ +0.0164  changes   472  2.8 min
+episode 269/1013  eps 0.086  train return  +67.86%  loss 4.20e-05  maxQ +0.0161  changes   517  2.9 min
+episode 270/1013  eps 0.086  train return  +14.65%  loss 3.99e-05  maxQ +0.0165  changes   498  2.9 min | val return -29.78% (best +24.00%)
+episode 271/1013  eps 0.085  train return  +39.78%  loss 4.23e-05  maxQ +0.0167  changes   494  2.9 min
+episode 272/1013  eps 0.084  train return  +41.01%  loss 4.04e-05  maxQ +0.0167  changes   498  2.9 min
+episode 273/1013  eps 0.083  train return   +3.02%  loss 4.08e-05  maxQ +0.0168  changes   470  2.9 min
+episode 274/1013  eps 0.082  train return  +17.67%  loss 4.12e-05  maxQ +0.0171  changes   501  2.9 min
+episode 275/1013  eps 0.082  train return   +4.16%  loss 4.36e-05  maxQ +0.0180  changes   442  2.9 min
+episode 276/1013  eps 0.081  train return   +7.40%  loss 4.26e-05  maxQ +0.0172  changes   505  2.9 min
+episode 277/1013  eps 0.080  train return  +36.42%  loss 4.09e-05  maxQ +0.0178  changes   502  2.9 min
+episode 278/1013  eps 0.079  train return  +84.24%  loss 4.07e-05  maxQ +0.0180  changes   512  3.0 min
+episode 279/1013  eps 0.079  train return  +20.49%  loss 4.13e-05  maxQ +0.0163  changes   496  3.0 min
+episode 280/1013  eps 0.078  train return  +55.91%  loss 4.15e-05  maxQ +0.0171  changes   476  3.0 min | val return +5.24% (best +24.00%)
+episode 281/1013  eps 0.077  train return   -6.67%  loss 4.10e-05  maxQ +0.0166  changes   461  3.0 min
+episode 282/1013  eps 0.077  train return   +5.43%  loss 3.86e-05  maxQ +0.0166  changes   502  3.0 min
+episode 283/1013  eps 0.076  train return  +27.39%  loss 3.72e-05  maxQ +0.0173  changes   491  3.0 min
+episode 284/1013  eps 0.075  train return  +22.53%  loss 3.93e-05  maxQ +0.0172  changes   465  3.0 min
+episode 285/1013  eps 0.075  train return  +14.21%  loss 3.83e-05  maxQ +0.0167  changes   490  3.0 min
+episode 286/1013  eps 0.074  train return  -15.04%  loss 3.79e-05  maxQ +0.0173  changes   499  3.0 min
+episode 287/1013  eps 0.073  train return  +69.01%  loss 3.94e-05  maxQ +0.0164  changes   534  3.1 min
+episode 288/1013  eps 0.073  train return   -0.19%  loss 3.80e-05  maxQ +0.0163  changes   466  3.1 min
+episode 289/1013  eps 0.072  train return  +43.12%  loss 3.83e-05  maxQ +0.0159  changes   529  3.1 min
+episode 290/1013  eps 0.071  train return  +66.57%  loss 3.76e-05  maxQ +0.0155  changes   486  3.1 min | val return +2.32% (best +24.00%)
+episode 291/1013  eps 0.071  train return  +16.12%  loss 3.68e-05  maxQ +0.0159  changes   486  3.1 min
+episode 292/1013  eps 0.070  train return  +11.74%  loss 3.69e-05  maxQ +0.0156  changes   511  3.1 min
+episode 293/1013  eps 0.069  train return  +13.43%  loss 3.81e-05  maxQ +0.0158  changes   469  3.1 min
+episode 294/1013  eps 0.069  train return  +67.56%  loss 4.13e-05  maxQ +0.0169  changes   510  3.1 min
+episode 295/1013  eps 0.068  train return  +75.90%  loss 4.13e-05  maxQ +0.0160  changes   519  3.1 min
+episode 296/1013  eps 0.067  train return  +33.99%  loss 3.67e-05  maxQ +0.0167  changes   511  3.2 min
+episode 297/1013  eps 0.067  train return   +6.60%  loss 4.24e-05  maxQ +0.0163  changes   500  3.2 min
+episode 298/1013  eps 0.066  train return  +26.96%  loss 4.15e-05  maxQ +0.0169  changes   507  3.2 min
+episode 299/1013  eps 0.066  train return  +15.98%  loss 4.08e-05  maxQ +0.0163  changes   529  3.2 min
+episode 300/1013  eps 0.065  train return  +30.43%  loss 4.27e-05  maxQ +0.0161  changes   506  3.2 min | val return -26.09% (best +24.00%)
+episode 301/1013  eps 0.064  train return  +21.10%  loss 4.30e-05  maxQ +0.0169  changes   521  3.2 min
+episode 302/1013  eps 0.064  train return   -1.24%  loss 3.98e-05  maxQ +0.0164  changes   504  3.2 min
+episode 303/1013  eps 0.063  train return   +8.26%  loss 4.07e-05  maxQ +0.0171  changes   511  3.2 min
+episode 304/1013  eps 0.063  train return +103.78%  loss 4.28e-05  maxQ +0.0160  changes   492  3.2 min
+episode 305/1013  eps 0.062  train return  +98.51%  loss 3.95e-05  maxQ +0.0154  changes   515  3.2 min
+episode 306/1013  eps 0.062  train return  +70.79%  loss 3.79e-05  maxQ +0.0153  changes   535  3.3 min
+episode 307/1013  eps 0.061  train return  +30.06%  loss 4.23e-05  maxQ +0.0165  changes   438  3.3 min
+episode 308/1013  eps 0.060  train return  +83.07%  loss 3.86e-05  maxQ +0.0168  changes   533  3.3 min
+episode 309/1013  eps 0.060  train return  +76.47%  loss 3.74e-05  maxQ +0.0160  changes   541  3.3 min
+episode 310/1013  eps 0.059  train return   +9.84%  loss 3.67e-05  maxQ +0.0160  changes   482  3.3 min | val return -23.79% (best +24.00%)
+episode 311/1013  eps 0.059  train return   +6.87%  loss 3.71e-05  maxQ +0.0159  changes   484  3.3 min
+episode 312/1013  eps 0.058  train return +106.85%  loss 3.95e-05  maxQ +0.0168  changes   485  3.3 min
+episode 313/1013  eps 0.058  train return  +26.35%  loss 3.57e-05  maxQ +0.0155  changes   457  3.3 min
+episode 314/1013  eps 0.057  train return +159.39%  loss 3.46e-05  maxQ +0.0155  changes   496  3.3 min
+episode 315/1013  eps 0.057  train return  +10.84%  loss 3.80e-05  maxQ +0.0160  changes   520  3.4 min
+episode 316/1013  eps 0.056  train return  +86.60%  loss 3.64e-05  maxQ +0.0153  changes   493  3.4 min
+episode 317/1013  eps 0.056  train return  +44.17%  loss 3.95e-05  maxQ +0.0154  changes   519  3.4 min
+episode 318/1013  eps 0.055  train return  +70.39%  loss 3.85e-05  maxQ +0.0169  changes   537  3.4 min
+episode 319/1013  eps 0.055  train return  +55.11%  loss 3.97e-05  maxQ +0.0158  changes   520  3.4 min
+episode 320/1013  eps 0.054  train return  +92.03%  loss 3.78e-05  maxQ +0.0156  changes   531  3.4 min | val return -8.95% (best +24.00%)
+episode 321/1013  eps 0.054  train return  +24.00%  loss 3.81e-05  maxQ +0.0162  changes   494  3.4 min
+episode 322/1013  eps 0.053  train return  +18.13%  loss 3.97e-05  maxQ +0.0163  changes   514  3.4 min
+episode 323/1013  eps 0.053  train return  +63.80%  loss 3.70e-05  maxQ +0.0165  changes   521  3.4 min
+episode 324/1013  eps 0.052  train return  +46.81%  loss 3.88e-05  maxQ +0.0162  changes   506  3.5 min
+episode 325/1013  eps 0.052  train return  +62.27%  loss 4.10e-05  maxQ +0.0161  changes   510  3.5 min
+episode 326/1013  eps 0.051  train return +152.62%  loss 3.84e-05  maxQ +0.0163  changes   503  3.5 min
+episode 327/1013  eps 0.051  train return +138.71%  loss 4.11e-05  maxQ +0.0168  changes   513  3.5 min
+episode 328/1013  eps 0.050  train return  +64.88%  loss 4.35e-05  maxQ +0.0164  changes   512  3.5 min
+episode 329/1013  eps 0.050  train return  +88.74%  loss 4.32e-05  maxQ +0.0170  changes   514  3.5 min
+episode 330/1013  eps 0.049  train return +135.84%  loss 5.06e-05  maxQ +0.0180  changes   501  3.5 min | val return +9.45% (best +24.00%)
+episode 331/1013  eps 0.049  train return  +13.55%  loss 4.75e-05  maxQ +0.0194  changes   457  3.5 min
+episode 332/1013  eps 0.049  train return  +76.33%  loss 4.14e-05  maxQ +0.0179  changes   535  3.5 min
+episode 333/1013  eps 0.048  train return  +77.66%  loss 4.27e-05  maxQ +0.0170  changes   504  3.6 min
+episode 334/1013  eps 0.048  train return  +26.26%  loss 4.21e-05  maxQ +0.0176  changes   522  3.6 min
+episode 335/1013  eps 0.047  train return   +9.14%  loss 4.35e-05  maxQ +0.0177  changes   503  3.6 min
+episode 336/1013  eps 0.047  train return  +32.84%  loss 4.41e-05  maxQ +0.0183  changes   500  3.6 min
+episode 337/1013  eps 0.046  train return  +16.08%  loss 4.59e-05  maxQ +0.0181  changes   514  3.6 min
+episode 338/1013  eps 0.046  train return  +30.71%  loss 4.58e-05  maxQ +0.0182  changes   513  3.6 min
+episode 339/1013  eps 0.046  train return  +38.25%  loss 4.82e-05  maxQ +0.0182  changes   508  3.6 min
+episode 340/1013  eps 0.045  train return   +1.50%  loss 4.60e-05  maxQ +0.0180  changes   422  3.6 min | val return -5.90% (best +24.00%)
+episode 341/1013  eps 0.045  train return +135.72%  loss 4.04e-05  maxQ +0.0172  changes   506  3.6 min
+episode 342/1013  eps 0.044  train return  +17.15%  loss 4.39e-05  maxQ +0.0170  changes   440  3.7 min
+episode 343/1013  eps 0.044  train return  +63.16%  loss 4.44e-05  maxQ +0.0164  changes   474  3.7 min
+episode 344/1013  eps 0.043  train return  +25.91%  loss 4.32e-05  maxQ +0.0166  changes   474  3.7 min
+episode 345/1013  eps 0.043  train return  +45.67%  loss 4.10e-05  maxQ +0.0170  changes   489  3.7 min
+episode 346/1013  eps 0.043  train return  +11.35%  loss 4.12e-05  maxQ +0.0165  changes   471  3.7 min
+episode 347/1013  eps 0.042  train return   +4.18%  loss 4.12e-05  maxQ +0.0166  changes   460  3.7 min
+episode 348/1013  eps 0.042  train return  +17.87%  loss 4.06e-05  maxQ +0.0158  changes   457  3.7 min
+episode 349/1013  eps 0.042  train return  +91.16%  loss 4.11e-05  maxQ +0.0162  changes   522  3.7 min
+episode 350/1013  eps 0.041  train return  +21.37%  loss 4.35e-05  maxQ +0.0160  changes   469  3.7 min | val return -15.56% (best +24.00%)
+episode 351/1013  eps 0.041  train return  +28.37%  loss 4.32e-05  maxQ +0.0169  changes   433  3.8 min
+episode 352/1013  eps 0.040  train return +159.36%  loss 4.43e-05  maxQ +0.0177  changes   512  3.8 min
+episode 353/1013  eps 0.040  train return  +21.97%  loss 4.29e-05  maxQ +0.0178  changes   469  3.8 min
+episode 354/1013  eps 0.040  train return  +28.73%  loss 4.57e-05  maxQ +0.0178  changes   513  3.8 min
+episode 355/1013  eps 0.039  train return  +41.99%  loss 4.57e-05  maxQ +0.0191  changes   488  3.8 min
+episode 356/1013  eps 0.039  train return  +53.77%  loss 4.72e-05  maxQ +0.0194  changes   526  3.8 min
+episode 357/1013  eps 0.039  train return  +23.04%  loss 4.40e-05  maxQ +0.0192  changes   494  3.8 min
+episode 358/1013  eps 0.038  train return   -6.65%  loss 4.32e-05  maxQ +0.0186  changes   489  3.8 min
+episode 359/1013  eps 0.038  train return  +39.10%  loss 4.26e-05  maxQ +0.0180  changes   480  3.8 min
+episode 360/1013  eps 0.038  train return  +65.36%  loss 4.23e-05  maxQ +0.0181  changes   520  3.8 min | val return -12.50% (best +24.00%)
+episode 361/1013  eps 0.037  train return +162.12%  loss 4.74e-05  maxQ +0.0180  changes   491  3.9 min
+episode 362/1013  eps 0.037  train return +148.04%  loss 4.74e-05  maxQ +0.0174  changes   487  3.9 min
+episode 363/1013  eps 0.037  train return  +38.12%  loss 4.37e-05  maxQ +0.0172  changes   503  3.9 min
+episode 364/1013  eps 0.036  train return  +19.06%  loss 4.48e-05  maxQ +0.0172  changes   462  3.9 min
+episode 365/1013  eps 0.036  train return  +16.38%  loss 4.29e-05  maxQ +0.0176  changes   482  3.9 min
+episode 366/1013  eps 0.036  train return  +14.04%  loss 4.28e-05  maxQ +0.0170  changes   443  3.9 min
+episode 367/1013  eps 0.035  train return  +50.08%  loss 4.64e-05  maxQ +0.0170  changes   493  3.9 min
+episode 368/1013  eps 0.035  train return  +39.03%  loss 4.44e-05  maxQ +0.0171  changes   451  3.9 min
+episode 369/1013  eps 0.035  train return +158.94%  loss 4.36e-05  maxQ +0.0171  changes   507  3.9 min
+episode 370/1013  eps 0.034  train return  +89.99%  loss 4.37e-05  maxQ +0.0172  changes   489  4.0 min | val return -4.22% (best +24.00%)
+episode 371/1013  eps 0.034  train return  +18.80%  loss 4.64e-05  maxQ +0.0177  changes   499  4.0 min
+episode 372/1013  eps 0.034  train return  +19.87%  loss 4.98e-05  maxQ +0.0188  changes   500  4.0 min
+episode 373/1013  eps 0.033  train return +276.78%  loss 4.84e-05  maxQ +0.0182  changes   527  4.0 min
+episode 374/1013  eps 0.033  train return  +60.99%  loss 4.83e-05  maxQ +0.0175  changes   491  4.0 min
+episode 375/1013  eps 0.033  train return  +25.43%  loss 4.79e-05  maxQ +0.0183  changes   498  4.0 min
+episode 376/1013  eps 0.032  train return  +92.62%  loss 5.34e-05  maxQ +0.0184  changes   521  4.0 min
+episode 377/1013  eps 0.032  train return   +7.21%  loss 4.64e-05  maxQ +0.0184  changes   448  4.0 min
+episode 378/1013  eps 0.032  train return   +8.04%  loss 4.82e-05  maxQ +0.0177  changes   404  4.0 min
+episode 379/1013  eps 0.032  train return +154.83%  loss 4.65e-05  maxQ +0.0192  changes   494  4.0 min
+episode 380/1013  eps 0.031  train return  +18.09%  loss 5.04e-05  maxQ +0.0187  changes   492  4.1 min | val return +0.61% (best +24.00%)
+episode 381/1013  eps 0.031  train return +154.88%  loss 4.55e-05  maxQ +0.0188  changes   537  4.1 min
+episode 382/1013  eps 0.031  train return  +40.26%  loss 4.86e-05  maxQ +0.0183  changes   438  4.1 min
+episode 383/1013  eps 0.030  train return  +85.05%  loss 5.03e-05  maxQ +0.0180  changes   543  4.1 min
+episode 384/1013  eps 0.030  train return  +59.60%  loss 4.93e-05  maxQ +0.0180  changes   502  4.1 min
+episode 385/1013  eps 0.030  train return  +31.85%  loss 4.74e-05  maxQ +0.0184  changes   539  4.1 min
+episode 386/1013  eps 0.030  train return  +14.73%  loss 4.55e-05  maxQ +0.0184  changes   464  4.1 min
+episode 387/1013  eps 0.029  train return  +39.29%  loss 4.48e-05  maxQ +0.0180  changes   477  4.1 min
+episode 388/1013  eps 0.029  train return  +77.32%  loss 4.88e-05  maxQ +0.0180  changes   485  4.2 min
+episode 389/1013  eps 0.029  train return +103.30%  loss 4.97e-05  maxQ +0.0185  changes   517  4.2 min
+episode 390/1013  eps 0.029  train return +200.41%  loss 4.85e-05  maxQ +0.0184  changes   498  4.2 min | val return -14.52% (best +24.00%)
+episode 391/1013  eps 0.028  train return  +47.99%  loss 4.73e-05  maxQ +0.0183  changes   467  4.2 min
+episode 392/1013  eps 0.028  train return  +63.09%  loss 4.47e-05  maxQ +0.0183  changes   513  4.2 min
+episode 393/1013  eps 0.028  train return  +28.95%  loss 4.53e-05  maxQ +0.0180  changes   509  4.2 min
+episode 394/1013  eps 0.028  train return  +27.87%  loss 4.69e-05  maxQ +0.0186  changes   465  4.2 min
+episode 395/1013  eps 0.027  train return  +44.34%  loss 4.56e-05  maxQ +0.0180  changes   498  4.2 min
+episode 396/1013  eps 0.027  train return +199.22%  loss 4.52e-05  maxQ +0.0183  changes   502  4.2 min
+episode 397/1013  eps 0.027  train return  +77.27%  loss 4.00e-05  maxQ +0.0180  changes   519  4.2 min
+episode 398/1013  eps 0.027  train return  +27.17%  loss 4.48e-05  maxQ +0.0174  changes   522  4.3 min
+episode 399/1013  eps 0.026  train return  +27.12%  loss 4.27e-05  maxQ +0.0175  changes   521  4.3 min
+episode 400/1013  eps 0.026  train return +235.66%  loss 4.58e-05  maxQ +0.0176  changes   494  4.3 min | val return -26.49% (best +24.00%)
+episode 401/1013  eps 0.026  train return  +26.63%  loss 4.39e-05  maxQ +0.0177  changes   458  4.3 min
+episode 402/1013  eps 0.026  train return  +48.99%  loss 4.60e-05  maxQ +0.0180  changes   477  4.3 min
+episode 403/1013  eps 0.025  train return +109.61%  loss 4.94e-05  maxQ +0.0184  changes   502  4.3 min
+episode 404/1013  eps 0.025  train return  +17.11%  loss 4.78e-05  maxQ +0.0186  changes   441  4.3 min
+episode 405/1013  eps 0.025  train return  +40.02%  loss 4.61e-05  maxQ +0.0178  changes   502  4.3 min
+episode 406/1013  eps 0.025  train return  +22.66%  loss 4.46e-05  maxQ +0.0178  changes   480  4.3 min
+episode 407/1013  eps 0.024  train return  +74.89%  loss 4.14e-05  maxQ +0.0178  changes   537  4.4 min
+episode 408/1013  eps 0.024  train return  +56.53%  loss 4.10e-05  maxQ +0.0175  changes   517  4.4 min
+episode 409/1013  eps 0.024  train return   +7.83%  loss 4.37e-05  maxQ +0.0175  changes   437  4.4 min
+episode 410/1013  eps 0.024  train return  +52.68%  loss 4.64e-05  maxQ +0.0167  changes   488  4.4 min | val return -12.16% (best +24.00%)
+episode 411/1013  eps 0.024  train return  +36.24%  loss 4.21e-05  maxQ +0.0177  changes   499  4.4 min
+episode 412/1013  eps 0.023  train return  +32.02%  loss 4.48e-05  maxQ +0.0174  changes   463  4.4 min
+episode 413/1013  eps 0.023  train return +111.94%  loss 4.17e-05  maxQ +0.0171  changes   500  4.4 min
+episode 414/1013  eps 0.023  train return  +96.99%  loss 4.55e-05  maxQ +0.0178  changes   506  4.4 min
+episode 415/1013  eps 0.023  train return  +15.02%  loss 4.58e-05  maxQ +0.0175  changes   464  4.4 min
+episode 416/1013  eps 0.023  train return  +95.36%  loss 4.66e-05  maxQ +0.0173  changes   501  4.5 min
+episode 417/1013  eps 0.022  train return  +11.80%  loss 4.66e-05  maxQ +0.0178  changes   475  4.5 min
+episode 418/1013  eps 0.022  train return  +20.05%  loss 4.59e-05  maxQ +0.0184  changes   448  4.5 min
+episode 419/1013  eps 0.022  train return +115.09%  loss 4.83e-05  maxQ +0.0188  changes   513  4.5 min
+episode 420/1013  eps 0.022  train return  +65.12%  loss 4.33e-05  maxQ +0.0183  changes   460  4.5 min | val return -22.52% (best +24.00%)
+episode 421/1013  eps 0.022  train return  +24.69%  loss 4.30e-05  maxQ +0.0185  changes   483  4.5 min
+episode 422/1013  eps 0.021  train return   +4.98%  loss 4.20e-05  maxQ +0.0184  changes   449  4.5 min
+episode 423/1013  eps 0.021  train return  +50.34%  loss 4.64e-05  maxQ +0.0183  changes   516  4.5 min
+episode 424/1013  eps 0.021  train return  +46.82%  loss 4.33e-05  maxQ +0.0181  changes   489  4.5 min
+episode 425/1013  eps 0.021  train return  +86.43%  loss 4.43e-05  maxQ +0.0178  changes   494  4.6 min
+episode 426/1013  eps 0.021  train return  +32.11%  loss 5.17e-05  maxQ +0.0183  changes   459  4.6 min
+episode 427/1013  eps 0.020  train return  +70.06%  loss 4.70e-05  maxQ +0.0181  changes   507  4.6 min
+episode 428/1013  eps 0.020  train return  +12.77%  loss 4.66e-05  maxQ +0.0179  changes   420  4.6 min
+episode 429/1013  eps 0.020  train return  +10.58%  loss 4.33e-05  maxQ +0.0169  changes   479  4.6 min
+episode 430/1013  eps 0.020  train return  +15.00%  loss 4.45e-05  maxQ +0.0180  changes   494  4.6 min | val return -21.51% (best +24.00%)
+episode 431/1013  eps 0.020  train return  +18.92%  loss 4.17e-05  maxQ +0.0177  changes   494  4.6 min
+episode 432/1013  eps 0.019  train return  +79.20%  loss 4.24e-05  maxQ +0.0179  changes   460  4.6 min
+episode 433/1013  eps 0.019  train return +131.52%  loss 4.01e-05  maxQ +0.0183  changes   512  4.6 min
+episode 434/1013  eps 0.019  train return  +28.49%  loss 4.19e-05  maxQ +0.0173  changes   507  4.7 min
+episode 435/1013  eps 0.019  train return  +62.57%  loss 4.42e-05  maxQ +0.0181  changes   495  4.7 min
+episode 436/1013  eps 0.019  train return  +11.27%  loss 4.27e-05  maxQ +0.0174  changes   469  4.7 min
+episode 437/1013  eps 0.019  train return  +22.82%  loss 4.21e-05  maxQ +0.0177  changes   467  4.7 min
+episode 438/1013  eps 0.018  train return  +44.60%  loss 4.24e-05  maxQ +0.0170  changes   455  4.7 min
+episode 439/1013  eps 0.018  train return  +99.56%  loss 4.03e-05  maxQ +0.0174  changes   520  4.7 min
+episode 440/1013  eps 0.018  train return +103.34%  loss 4.40e-05  maxQ +0.0172  changes   496  4.7 min | val return -3.79% (best +24.00%)
+episode 441/1013  eps 0.018  train return  +39.30%  loss 4.36e-05  maxQ +0.0176  changes   481  4.7 min
+episode 442/1013  eps 0.018  train return +169.32%  loss 4.25e-05  maxQ +0.0179  changes   489  4.7 min
+episode 443/1013  eps 0.018  train return  +35.39%  loss 4.27e-05  maxQ +0.0181  changes   470  4.8 min
+episode 444/1013  eps 0.017  train return +114.74%  loss 4.04e-05  maxQ +0.0176  changes   500  4.8 min
+episode 445/1013  eps 0.017  train return  +42.63%  loss 4.03e-05  maxQ +0.0178  changes   463  4.8 min
+episode 446/1013  eps 0.017  train return  +75.96%  loss 3.86e-05  maxQ +0.0170  changes   471  4.8 min
+episode 447/1013  eps 0.017  train return  +32.01%  loss 4.01e-05  maxQ +0.0173  changes   488  4.8 min
+episode 448/1013  eps 0.017  train return  +52.11%  loss 4.08e-05  maxQ +0.0178  changes   455  4.8 min
+episode 449/1013  eps 0.017  train return  +91.43%  loss 3.86e-05  maxQ +0.0180  changes   493  4.8 min
+episode 450/1013  eps 0.016  train return  +55.22%  loss 3.96e-05  maxQ +0.0177  changes   452  4.8 min | val return -12.80% (best +24.00%)
+episode 451/1013  eps 0.016  train return  +48.39%  loss 3.98e-05  maxQ +0.0172  changes   500  4.8 min
+episode 452/1013  eps 0.016  train return  +36.42%  loss 3.78e-05  maxQ +0.0169  changes   463  4.9 min
+episode 453/1013  eps 0.016  train return  +39.22%  loss 3.93e-05  maxQ +0.0165  changes   432  4.9 min
+episode 454/1013  eps 0.016  train return +184.38%  loss 3.77e-05  maxQ +0.0166  changes   500  4.9 min
+episode 455/1013  eps 0.016  train return +174.62%  loss 3.74e-05  maxQ +0.0164  changes   514  4.9 min
+episode 456/1013  eps 0.016  train return +110.31%  loss 3.93e-05  maxQ +0.0173  changes   506  4.9 min
+episode 457/1013  eps 0.015  train return   -4.81%  loss 3.80e-05  maxQ +0.0167  changes   381  4.9 min
+episode 458/1013  eps 0.015  train return +154.01%  loss 4.24e-05  maxQ +0.0180  changes   504  4.9 min
+episode 459/1013  eps 0.015  train return +132.89%  loss 4.00e-05  maxQ +0.0182  changes   488  4.9 min
+episode 460/1013  eps 0.015  train return  +10.47%  loss 4.06e-05  maxQ +0.0185  changes   430  4.9 min | val return -2.74% (best +24.00%)
+episode 461/1013  eps 0.015  train return +171.68%  loss 3.72e-05  maxQ +0.0175  changes   490  5.0 min
+episode 462/1013  eps 0.015  train return   +3.33%  loss 3.83e-05  maxQ +0.0174  changes   497  5.0 min
+episode 463/1013  eps 0.015  train return  +86.43%  loss 4.00e-05  maxQ +0.0175  changes   499  5.0 min
+episode 464/1013  eps 0.015  train return +130.00%  loss 4.29e-05  maxQ +0.0181  changes   469  5.0 min
+episode 465/1013  eps 0.014  train return +199.28%  loss 4.03e-05  maxQ +0.0175  changes   460  5.0 min
+episode 466/1013  eps 0.014  train return  +34.47%  loss 4.07e-05  maxQ +0.0177  changes   450  5.0 min
+episode 467/1013  eps 0.014  train return  +38.76%  loss 3.77e-05  maxQ +0.0166  changes   505  5.0 min
+episode 468/1013  eps 0.014  train return  +39.66%  loss 3.80e-05  maxQ +0.0161  changes   460  5.0 min
+episode 469/1013  eps 0.014  train return  +37.22%  loss 3.64e-05  maxQ +0.0162  changes   491  5.0 min
+episode 470/1013  eps 0.014  train return  +46.25%  loss 3.76e-05  maxQ +0.0163  changes   504  5.0 min | val return +8.87% (best +24.00%)
+episode 471/1013  eps 0.014  train return  +59.26%  loss 3.66e-05  maxQ +0.0166  changes   507  5.1 min
+episode 472/1013  eps 0.013  train return  +25.30%  loss 3.76e-05  maxQ +0.0172  changes   429  5.1 min
+episode 473/1013  eps 0.013  train return +124.08%  loss 4.01e-05  maxQ +0.0168  changes   501  5.1 min
+episode 474/1013  eps 0.013  train return   +0.42%  loss 3.75e-05  maxQ +0.0170  changes   472  5.1 min
+episode 475/1013  eps 0.013  train return  +20.63%  loss 3.80e-05  maxQ +0.0173  changes   452  5.1 min
+episode 476/1013  eps 0.013  train return  +56.79%  loss 3.77e-05  maxQ +0.0172  changes   472  5.1 min
+episode 477/1013  eps 0.013  train return  +26.24%  loss 3.69e-05  maxQ +0.0183  changes   486  5.1 min
+episode 478/1013  eps 0.013  train return +226.43%  loss 3.76e-05  maxQ +0.0170  changes   512  5.1 min
+episode 479/1013  eps 0.013  train return +126.10%  loss 3.75e-05  maxQ +0.0175  changes   519  5.2 min
+episode 480/1013  eps 0.013  train return +149.61%  loss 4.21e-05  maxQ +0.0169  changes   525  5.2 min | val return -13.89% (best +24.00%)
+episode 481/1013  eps 0.012  train return  +66.94%  loss 4.11e-05  maxQ +0.0171  changes   483  5.2 min
+episode 482/1013  eps 0.012  train return  +10.46%  loss 3.88e-05  maxQ +0.0172  changes   468  5.2 min
+episode 483/1013  eps 0.012  train return +206.38%  loss 3.71e-05  maxQ +0.0167  changes   521  5.2 min
+episode 484/1013  eps 0.012  train return  +88.94%  loss 3.68e-05  maxQ +0.0158  changes   495  5.2 min
+episode 485/1013  eps 0.012  train return  +43.92%  loss 3.75e-05  maxQ +0.0163  changes   481  5.2 min
+episode 486/1013  eps 0.012  train return +111.98%  loss 4.05e-05  maxQ +0.0164  changes   525  5.2 min
+episode 487/1013  eps 0.012  train return  +23.26%  loss 3.82e-05  maxQ +0.0168  changes   478  5.2 min
+episode 488/1013  eps 0.012  train return +142.00%  loss 3.76e-05  maxQ +0.0161  changes   490  5.3 min
+episode 489/1013  eps 0.012  train return  +76.03%  loss 3.68e-05  maxQ +0.0158  changes   484  5.3 min
+episode 490/1013  eps 0.011  train return   -1.19%  loss 3.73e-05  maxQ +0.0163  changes   452  5.3 min | val return -9.43% (best +24.00%)
+episode 491/1013  eps 0.011  train return  +71.69%  loss 3.85e-05  maxQ +0.0164  changes   504  5.3 min
+episode 492/1013  eps 0.011  train return +209.77%  loss 4.06e-05  maxQ +0.0170  changes   487  5.3 min
+episode 493/1013  eps 0.011  train return  +84.44%  loss 3.73e-05  maxQ +0.0173  changes   509  5.3 min
+episode 494/1013  eps 0.011  train return  +23.06%  loss 3.97e-05  maxQ +0.0172  changes   475  5.3 min
+episode 495/1013  eps 0.011  train return  +97.23%  loss 4.25e-05  maxQ +0.0179  changes   513  5.3 min
+episode 496/1013  eps 0.011  train return  +85.08%  loss 4.05e-05  maxQ +0.0181  changes   473  5.3 min
+episode 497/1013  eps 0.011  train return +142.00%  loss 3.97e-05  maxQ +0.0177  changes   514  5.4 min
+episode 498/1013  eps 0.011  train return  +33.03%  loss 4.05e-05  maxQ +0.0178  changes   479  5.4 min
+episode 499/1013  eps 0.011  train return +190.95%  loss 3.90e-05  maxQ +0.0183  changes   536  5.4 min
+episode 500/1013  eps 0.010  train return +172.13%  loss 4.42e-05  maxQ +0.0180  changes   521  5.4 min | val return +3.20% (best +24.00%)
+episode 501/1013  eps 0.010  train return +195.42%  loss 4.09e-05  maxQ +0.0179  changes   523  5.4 min
+episode 502/1013  eps 0.010  train return +177.29%  loss 4.29e-05  maxQ +0.0174  changes   509  5.4 min
+episode 503/1013  eps 0.010  train return  +32.16%  loss 3.97e-05  maxQ +0.0178  changes   510  5.4 min
+episode 504/1013  eps 0.010  train return +108.43%  loss 4.55e-05  maxQ +0.0188  changes   511  5.4 min
+episode 505/1013  eps 0.010  train return +168.36%  loss 4.09e-05  maxQ +0.0180  changes   520  5.4 min
+episode 506/1013  eps 0.010  train return  +24.12%  loss 4.23e-05  maxQ +0.0177  changes   445  5.5 min
+episode 507/1013  eps 0.010  train return  +32.99%  loss 4.23e-05  maxQ +0.0184  changes   498  5.5 min
+episode 508/1013  eps 0.010  train return +120.47%  loss 4.44e-05  maxQ +0.0183  changes   495  5.5 min
+episode 509/1013  eps 0.010  train return +117.63%  loss 4.21e-05  maxQ +0.0179  changes   512  5.5 min
+episode 510/1013  eps 0.010  train return +151.45%  loss 4.21e-05  maxQ +0.0183  changes   516  5.5 min | val return -6.26% (best +24.00%)
+episode 511/1013  eps 0.010  train return   +1.68%  loss 4.19e-05  maxQ +0.0183  changes   455  5.5 min
+episode 512/1013  eps 0.010  train return +180.46%  loss 4.24e-05  maxQ +0.0191  changes   514  5.5 min
+episode 513/1013  eps 0.010  train return   -3.61%  loss 4.38e-05  maxQ +0.0187  changes   450  5.5 min
+episode 514/1013  eps 0.010  train return  +42.62%  loss 4.25e-05  maxQ +0.0183  changes   499  5.5 min
+episode 515/1013  eps 0.010  train return   +4.23%  loss 4.39e-05  maxQ +0.0179  changes   482  5.6 min
+episode 516/1013  eps 0.010  train return  +29.94%  loss 4.28e-05  maxQ +0.0183  changes   515  5.6 min
+episode 517/1013  eps 0.010  train return  +49.03%  loss 4.14e-05  maxQ +0.0182  changes   485  5.6 min
+episode 518/1013  eps 0.010  train return  +30.23%  loss 4.26e-05  maxQ +0.0182  changes   464  5.6 min
+episode 519/1013  eps 0.010  train return  +40.35%  loss 4.08e-05  maxQ +0.0174  changes   512  5.6 min
+episode 520/1013  eps 0.010  train return  +29.38%  loss 4.31e-05  maxQ +0.0179  changes   466  5.6 min | val return -15.43% (best +24.00%)
+episode 521/1013  eps 0.010  train return  +42.01%  loss 4.10e-05  maxQ +0.0177  changes   454  5.6 min
+episode 522/1013  eps 0.010  train return  +85.15%  loss 4.28e-05  maxQ +0.0177  changes   498  5.6 min
+episode 523/1013  eps 0.010  train return +104.18%  loss 4.10e-05  maxQ +0.0180  changes   512  5.6 min
+episode 524/1013  eps 0.010  train return +231.74%  loss 4.28e-05  maxQ +0.0183  changes   498  5.7 min
+episode 525/1013  eps 0.010  train return  +45.04%  loss 4.66e-05  maxQ +0.0189  changes   494  5.7 min
+episode 526/1013  eps 0.010  train return  +77.69%  loss 4.13e-05  maxQ +0.0178  changes   500  5.7 min
+episode 527/1013  eps 0.010  train return  +36.89%  loss 4.22e-05  maxQ +0.0181  changes   508  5.7 min
+episode 528/1013  eps 0.010  train return  +42.98%  loss 4.32e-05  maxQ +0.0179  changes   510  5.7 min
+episode 529/1013  eps 0.010  train return  +95.18%  loss 4.59e-05  maxQ +0.0177  changes   490  5.7 min
+episode 530/1013  eps 0.010  train return +139.29%  loss 4.43e-05  maxQ +0.0180  changes   514  5.7 min | val return +17.80% (best +24.00%)
+episode 531/1013  eps 0.010  train return  +13.23%  loss 4.50e-05  maxQ +0.0177  changes   456  5.7 min
+episode 532/1013  eps 0.010  train return   +4.30%  loss 4.39e-05  maxQ +0.0177  changes   455  5.7 min
+episode 533/1013  eps 0.010  train return  +45.92%  loss 4.39e-05  maxQ +0.0177  changes   468  5.8 min
+episode 534/1013  eps 0.010  train return  +42.76%  loss 4.02e-05  maxQ +0.0177  changes   516  5.8 min
+episode 535/1013  eps 0.010  train return  +97.12%  loss 3.91e-05  maxQ +0.0171  changes   489  5.8 min
+episode 536/1013  eps 0.010  train return  +21.25%  loss 3.88e-05  maxQ +0.0170  changes   478  5.8 min
+episode 537/1013  eps 0.010  train return   +6.11%  loss 4.06e-05  maxQ +0.0174  changes   472  5.8 min
+episode 538/1013  eps 0.010  train return  +84.70%  loss 4.26e-05  maxQ +0.0176  changes   485  5.8 min
+episode 539/1013  eps 0.010  train return +240.03%  loss 4.41e-05  maxQ +0.0175  changes   499  5.8 min
+episode 540/1013  eps 0.010  train return +107.86%  loss 4.16e-05  maxQ +0.0174  changes   490  5.8 min | val return -4.80% (best +24.00%)
+episode 541/1013  eps 0.010  train return  +43.65%  loss 4.15e-05  maxQ +0.0170  changes   492  5.8 min
+episode 542/1013  eps 0.010  train return +105.19%  loss 4.14e-05  maxQ +0.0174  changes   519  5.9 min
+episode 543/1013  eps 0.010  train return  +62.71%  loss 3.98e-05  maxQ +0.0169  changes   488  5.9 min
+episode 544/1013  eps 0.010  train return  +48.20%  loss 3.93e-05  maxQ +0.0177  changes   513  5.9 min
+episode 545/1013  eps 0.010  train return  +60.61%  loss 3.98e-05  maxQ +0.0171  changes   503  5.9 min
+episode 546/1013  eps 0.010  train return  +60.85%  loss 4.32e-05  maxQ +0.0174  changes   480  5.9 min
+episode 547/1013  eps 0.010  train return  +31.58%  loss 3.95e-05  maxQ +0.0170  changes   503  5.9 min
+episode 548/1013  eps 0.010  train return  +14.89%  loss 3.81e-05  maxQ +0.0168  changes   532  5.9 min
+episode 549/1013  eps 0.010  train return +189.32%  loss 3.87e-05  maxQ +0.0168  changes   508  5.9 min
+episode 550/1013  eps 0.010  train return  +40.97%  loss 3.92e-05  maxQ +0.0171  changes   455  5.9 min | val return +5.75% (best +24.00%)
+episode 551/1013  eps 0.010  train return +183.42%  loss 4.02e-05  maxQ +0.0162  changes   490  6.0 min
+episode 552/1013  eps 0.010  train return  +72.70%  loss 4.02e-05  maxQ +0.0173  changes   496  6.0 min
+episode 553/1013  eps 0.010  train return  +37.91%  loss 4.02e-05  maxQ +0.0166  changes   477  6.0 min
+episode 554/1013  eps 0.010  train return  +49.22%  loss 4.05e-05  maxQ +0.0171  changes   474  6.0 min
+episode 555/1013  eps 0.010  train return  +66.64%  loss 3.71e-05  maxQ +0.0168  changes   509  6.0 min
+episode 556/1013  eps 0.010  train return  +80.63%  loss 4.23e-05  maxQ +0.0173  changes   489  6.0 min
+episode 557/1013  eps 0.010  train return  +14.81%  loss 4.14e-05  maxQ +0.0174  changes   484  6.0 min
+episode 558/1013  eps 0.010  train return   +3.99%  loss 3.98e-05  maxQ +0.0173  changes   496  6.0 min
+episode 559/1013  eps 0.010  train return +160.33%  loss 3.82e-05  maxQ +0.0164  changes   519  6.0 min
+episode 560/1013  eps 0.010  train return +143.05%  loss 4.20e-05  maxQ +0.0169  changes   524  6.1 min | val return +3.92% (best +24.00%)
+episode 561/1013  eps 0.010  train return +103.23%  loss 4.13e-05  maxQ +0.0174  changes   504  6.1 min
+episode 562/1013  eps 0.010  train return +286.95%  loss 3.83e-05  maxQ +0.0169  changes   501  6.1 min
+episode 563/1013  eps 0.010  train return +102.77%  loss 4.19e-05  maxQ +0.0170  changes   522  6.1 min
+episode 564/1013  eps 0.010  train return  +17.33%  loss 4.11e-05  maxQ +0.0161  changes   468  6.1 min
+episode 565/1013  eps 0.010  train return +112.77%  loss 4.25e-05  maxQ +0.0161  changes   491  6.1 min
+episode 566/1013  eps 0.010  train return  +82.46%  loss 3.88e-05  maxQ +0.0163  changes   496  6.1 min
+episode 567/1013  eps 0.010  train return  +68.63%  loss 3.95e-05  maxQ +0.0168  changes   511  6.1 min
+episode 568/1013  eps 0.010  train return +212.77%  loss 3.88e-05  maxQ +0.0167  changes   489  6.1 min
+episode 569/1013  eps 0.010  train return +105.97%  loss 3.80e-05  maxQ +0.0178  changes   541  6.2 min
+episode 570/1013  eps 0.010  train return  +53.74%  loss 3.97e-05  maxQ +0.0171  changes   505  6.2 min | val return -13.67% (best +24.00%)
+episode 571/1013  eps 0.010  train return  +22.62%  loss 4.15e-05  maxQ +0.0170  changes   473  6.2 min
+episode 572/1013  eps 0.010  train return  +74.62%  loss 3.63e-05  maxQ +0.0166  changes   512  6.2 min
+episode 573/1013  eps 0.010  train return  +51.66%  loss 3.85e-05  maxQ +0.0165  changes   493  6.2 min
+episode 574/1013  eps 0.010  train return  +96.66%  loss 3.69e-05  maxQ +0.0168  changes   504  6.2 min
+episode 575/1013  eps 0.010  train return  +88.66%  loss 3.71e-05  maxQ +0.0164  changes   497  6.2 min
+episode 576/1013  eps 0.010  train return  +44.00%  loss 4.09e-05  maxQ +0.0172  changes   508  6.2 min
+episode 577/1013  eps 0.010  train return  +34.53%  loss 3.98e-05  maxQ +0.0173  changes   505  6.3 min
+episode 578/1013  eps 0.010  train return  +30.00%  loss 4.00e-05  maxQ +0.0167  changes   457  6.3 min
+episode 579/1013  eps 0.010  train return +204.39%  loss 3.65e-05  maxQ +0.0165  changes   506  6.3 min
+episode 580/1013  eps 0.010  train return  +46.93%  loss 4.01e-05  maxQ +0.0171  changes   497  6.3 min | val return +1.29% (best +24.00%)
+episode 581/1013  eps 0.010  train return  +28.47%  loss 4.04e-05  maxQ +0.0168  changes   511  6.3 min
+episode 582/1013  eps 0.010  train return +132.86%  loss 3.78e-05  maxQ +0.0168  changes   509  6.3 min
+episode 583/1013  eps 0.010  train return  +35.96%  loss 3.76e-05  maxQ +0.0162  changes   527  6.3 min
+episode 584/1013  eps 0.010  train return  +70.27%  loss 3.79e-05  maxQ +0.0164  changes   521  6.3 min
+episode 585/1013  eps 0.010  train return  +54.44%  loss 3.74e-05  maxQ +0.0167  changes   506  6.3 min
+episode 586/1013  eps 0.010  train return +196.26%  loss 3.90e-05  maxQ +0.0170  changes   508  6.4 min
+episode 587/1013  eps 0.010  train return +236.31%  loss 3.96e-05  maxQ +0.0176  changes   507  6.4 min
+episode 588/1013  eps 0.010  train return +158.87%  loss 3.98e-05  maxQ +0.0174  changes   500  6.4 min
+episode 589/1013  eps 0.010  train return  +10.19%  loss 4.03e-05  maxQ +0.0176  changes   412  6.4 min
+episode 590/1013  eps 0.010  train return +133.67%  loss 4.03e-05  maxQ +0.0178  changes   542  6.4 min | val return -16.68% (best +24.00%)
+episode 591/1013  eps 0.010  train return +149.76%  loss 4.03e-05  maxQ +0.0180  changes   522  6.4 min
+episode 592/1013  eps 0.010  train return   +4.96%  loss 4.11e-05  maxQ +0.0178  changes   505  6.4 min
+episode 593/1013  eps 0.010  train return +103.13%  loss 3.96e-05  maxQ +0.0177  changes   523  6.4 min
+episode 594/1013  eps 0.010  train return +153.17%  loss 4.02e-05  maxQ +0.0174  changes   498  6.4 min
+episode 595/1013  eps 0.010  train return  +37.47%  loss 4.12e-05  maxQ +0.0172  changes   472  6.5 min
+episode 596/1013  eps 0.010  train return  +35.90%  loss 3.96e-05  maxQ +0.0175  changes   472  6.5 min
+episode 597/1013  eps 0.010  train return +157.05%  loss 3.98e-05  maxQ +0.0176  changes   501  6.5 min
+episode 598/1013  eps 0.010  train return   +8.21%  loss 4.06e-05  maxQ +0.0173  changes   512  6.5 min
+episode 599/1013  eps 0.010  train return   +9.37%  loss 4.00e-05  maxQ +0.0175  changes   488  6.5 min
+episode 600/1013  eps 0.010  train return  +34.66%  loss 4.14e-05  maxQ +0.0166  changes   528  6.5 min | val return +18.89% (best +24.00%)
+episode 601/1013  eps 0.010  train return  +46.23%  loss 4.01e-05  maxQ +0.0172  changes   501  6.5 min
+episode 602/1013  eps 0.010  train return  +12.58%  loss 4.07e-05  maxQ +0.0172  changes   464  6.5 min
+episode 603/1013  eps 0.010  train return +125.17%  loss 3.95e-05  maxQ +0.0173  changes   509  6.6 min
+episode 604/1013  eps 0.010  train return +158.30%  loss 4.19e-05  maxQ +0.0170  changes   490  6.6 min
+episode 605/1013  eps 0.010  train return  +46.73%  loss 4.00e-05  maxQ +0.0169  changes   477  6.6 min
+episode 606/1013  eps 0.010  train return  +44.64%  loss 4.10e-05  maxQ +0.0178  changes   493  6.6 min
+episode 607/1013  eps 0.010  train return +253.57%  loss 4.13e-05  maxQ +0.0175  changes   491  6.6 min
+episode 608/1013  eps 0.010  train return +179.13%  loss 3.94e-05  maxQ +0.0173  changes   501  6.6 min
+episode 609/1013  eps 0.010  train return +205.91%  loss 4.35e-05  maxQ +0.0171  changes   511  6.6 min
+episode 610/1013  eps 0.010  train return  +63.51%  loss 3.86e-05  maxQ +0.0170  changes   502  6.6 min | val return -2.50% (best +24.00%)
+episode 611/1013  eps 0.010  train return +403.32%  loss 4.29e-05  maxQ +0.0173  changes   501  6.6 min
+episode 612/1013  eps 0.010  train return  +20.28%  loss 4.20e-05  maxQ +0.0182  changes   503  6.7 min
+episode 613/1013  eps 0.010  train return +101.60%  loss 4.42e-05  maxQ +0.0182  changes   506  6.7 min
+episode 614/1013  eps 0.010  train return  +91.89%  loss 3.91e-05  maxQ +0.0175  changes   480  6.7 min
+episode 615/1013  eps 0.010  train return  +53.35%  loss 3.98e-05  maxQ +0.0176  changes   488  6.7 min
+episode 616/1013  eps 0.010  train return  +47.38%  loss 4.28e-05  maxQ +0.0177  changes   488  6.7 min
+episode 617/1013  eps 0.010  train return +336.97%  loss 4.29e-05  maxQ +0.0174  changes   484  6.7 min
+episode 618/1013  eps 0.010  train return  +44.80%  loss 4.09e-05  maxQ +0.0177  changes   515  6.7 min
+episode 619/1013  eps 0.010  train return +148.65%  loss 4.24e-05  maxQ +0.0184  changes   489  6.7 min
+episode 620/1013  eps 0.010  train return +211.68%  loss 4.23e-05  maxQ +0.0188  changes   509  6.7 min | val return +3.63% (best +24.00%)
+episode 621/1013  eps 0.010  train return  +33.71%  loss 4.47e-05  maxQ +0.0185  changes   492  6.8 min
+episode 622/1013  eps 0.010  train return  +87.62%  loss 4.22e-05  maxQ +0.0188  changes   484  6.8 min
+episode 623/1013  eps 0.010  train return  +55.52%  loss 4.13e-05  maxQ +0.0182  changes   476  6.8 min
+episode 624/1013  eps 0.010  train return +102.31%  loss 4.28e-05  maxQ +0.0183  changes   479  6.8 min
+episode 625/1013  eps 0.010  train return +133.77%  loss 4.32e-05  maxQ +0.0184  changes   493  6.8 min
+episode 626/1013  eps 0.010  train return   -1.59%  loss 4.21e-05  maxQ +0.0179  changes   435  6.8 min
+episode 627/1013  eps 0.010  train return +201.54%  loss 4.43e-05  maxQ +0.0183  changes   477  6.8 min
+episode 628/1013  eps 0.010  train return  +59.95%  loss 4.68e-05  maxQ +0.0187  changes   496  6.8 min
+episode 629/1013  eps 0.010  train return +103.32%  loss 4.57e-05  maxQ +0.0180  changes   489  6.8 min
+episode 630/1013  eps 0.010  train return +382.25%  loss 4.42e-05  maxQ +0.0182  changes   509  6.9 min | val return -9.52% (best +24.00%)
+episode 631/1013  eps 0.010  train return   +0.20%  loss 4.26e-05  maxQ +0.0182  changes   489  6.9 min
+episode 632/1013  eps 0.010  train return   +8.77%  loss 3.96e-05  maxQ +0.0181  changes   430  6.9 min
+episode 633/1013  eps 0.010  train return  +72.99%  loss 4.04e-05  maxQ +0.0178  changes   472  6.9 min
+episode 634/1013  eps 0.010  train return  +49.20%  loss 4.14e-05  maxQ +0.0174  changes   479  6.9 min
+episode 635/1013  eps 0.010  train return  +97.97%  loss 3.92e-05  maxQ +0.0180  changes   509  6.9 min
+episode 636/1013  eps 0.010  train return  +31.79%  loss 3.96e-05  maxQ +0.0178  changes   498  6.9 min
+episode 637/1013  eps 0.010  train return  +17.06%  loss 4.29e-05  maxQ +0.0174  changes   494  6.9 min
+episode 638/1013  eps 0.010  train return +106.08%  loss 4.18e-05  maxQ +0.0173  changes   513  6.9 min
+episode 639/1013  eps 0.010  train return +130.86%  loss 4.57e-05  maxQ +0.0176  changes   534  7.0 min
+episode 640/1013  eps 0.010  train return +368.51%  loss 4.32e-05  maxQ +0.0177  changes   482  7.0 min | val return -18.83% (best +24.00%)
+episode 641/1013  eps 0.010  train return   -4.34%  loss 4.42e-05  maxQ +0.0173  changes   441  7.0 min
+episode 642/1013  eps 0.010  train return +181.49%  loss 4.17e-05  maxQ +0.0173  changes   502  7.0 min
+episode 643/1013  eps 0.010  train return +116.97%  loss 4.43e-05  maxQ +0.0174  changes   504  7.0 min
+episode 644/1013  eps 0.010  train return   +5.88%  loss 4.35e-05  maxQ +0.0167  changes   481  7.0 min
+episode 645/1013  eps 0.010  train return +123.15%  loss 4.29e-05  maxQ +0.0170  changes   508  7.0 min
+episode 646/1013  eps 0.010  train return  +77.55%  loss 3.88e-05  maxQ +0.0172  changes   510  7.0 min
+episode 647/1013  eps 0.010  train return   -4.14%  loss 4.27e-05  maxQ +0.0171  changes   439  7.0 min
+episode 648/1013  eps 0.010  train return  +42.61%  loss 4.35e-05  maxQ +0.0164  changes   497  7.1 min
+episode 649/1013  eps 0.010  train return  +41.24%  loss 4.26e-05  maxQ +0.0160  changes   459  7.1 min
+episode 650/1013  eps 0.010  train return  +68.63%  loss 4.83e-05  maxQ +0.0167  changes   514  7.1 min | val return -21.06% (best +24.00%)
+episode 651/1013  eps 0.010  train return  +70.77%  loss 4.46e-05  maxQ +0.0165  changes   506  7.1 min
+episode 652/1013  eps 0.010  train return  +20.88%  loss 4.55e-05  maxQ +0.0172  changes   482  7.1 min
+episode 653/1013  eps 0.010  train return +293.55%  loss 4.70e-05  maxQ +0.0173  changes   517  7.1 min
+episode 654/1013  eps 0.010  train return +156.76%  loss 4.44e-05  maxQ +0.0190  changes   526  7.1 min
+episode 655/1013  eps 0.010  train return +104.53%  loss 5.08e-05  maxQ +0.0183  changes   534  7.1 min
+episode 656/1013  eps 0.010  train return +297.00%  loss 4.67e-05  maxQ +0.0178  changes   504  7.2 min
+episode 657/1013  eps 0.010  train return  +85.84%  loss 4.67e-05  maxQ +0.0185  changes   511  7.2 min
+episode 658/1013  eps 0.010  train return  +44.67%  loss 4.65e-05  maxQ +0.0180  changes   519  7.2 min
+episode 659/1013  eps 0.010  train return  +70.09%  loss 4.93e-05  maxQ +0.0184  changes   492  7.2 min
+episode 660/1013  eps 0.010  train return  +67.96%  loss 5.19e-05  maxQ +0.0192  changes   498  7.2 min | val return +11.78% (best +24.00%)
+episode 661/1013  eps 0.010  train return  +46.91%  loss 4.72e-05  maxQ +0.0183  changes   530  7.2 min
+episode 662/1013  eps 0.010  train return  +46.30%  loss 4.67e-05  maxQ +0.0178  changes   507  7.2 min
+episode 663/1013  eps 0.010  train return +371.32%  loss 5.05e-05  maxQ +0.0184  changes   517  7.2 min
+episode 664/1013  eps 0.010  train return  +53.07%  loss 4.72e-05  maxQ +0.0173  changes   499  7.2 min
+episode 665/1013  eps 0.010  train return +106.72%  loss 4.92e-05  maxQ +0.0180  changes   462  7.3 min
+episode 666/1013  eps 0.010  train return +247.08%  loss 5.16e-05  maxQ +0.0182  changes   519  7.3 min
+episode 667/1013  eps 0.010  train return +254.04%  loss 5.33e-05  maxQ +0.0182  changes   487  7.3 min
+episode 668/1013  eps 0.010  train return +139.34%  loss 5.22e-05  maxQ +0.0191  changes   496  7.3 min
+episode 669/1013  eps 0.010  train return  +72.14%  loss 5.09e-05  maxQ +0.0188  changes   510  7.3 min
+episode 670/1013  eps 0.010  train return  +14.17%  loss 4.97e-05  maxQ +0.0181  changes   438  7.3 min | val return +2.88% (best +24.00%)
+episode 671/1013  eps 0.010  train return  +30.57%  loss 4.77e-05  maxQ +0.0175  changes   533  7.3 min
+episode 672/1013  eps 0.010  train return +123.29%  loss 5.28e-05  maxQ +0.0174  changes   528  7.3 min
+episode 673/1013  eps 0.010  train return +100.32%  loss 5.31e-05  maxQ +0.0189  changes   497  7.3 min
+episode 674/1013  eps 0.010  train return  +44.77%  loss 5.04e-05  maxQ +0.0189  changes   486  7.4 min
+episode 675/1013  eps 0.010  train return  +21.03%  loss 5.08e-05  maxQ +0.0189  changes   475  7.4 min
+episode 676/1013  eps 0.010  train return  +25.49%  loss 4.49e-05  maxQ +0.0183  changes   487  7.4 min
+episode 677/1013  eps 0.010  train return  +86.69%  loss 4.81e-05  maxQ +0.0186  changes   512  7.4 min
+episode 678/1013  eps 0.010  train return  +55.88%  loss 4.73e-05  maxQ +0.0180  changes   515  7.4 min
+episode 679/1013  eps 0.010  train return  +22.14%  loss 4.93e-05  maxQ +0.0190  changes   454  7.4 min
+episode 680/1013  eps 0.010  train return  +17.40%  loss 4.64e-05  maxQ +0.0181  changes   522  7.4 min | val return +9.13% (best +24.00%)
+episode 681/1013  eps 0.010  train return  +94.09%  loss 4.61e-05  maxQ +0.0184  changes   459  7.4 min
+episode 682/1013  eps 0.010  train return  +73.16%  loss 4.60e-05  maxQ +0.0184  changes   518  7.5 min
+episode 683/1013  eps 0.010  train return +129.16%  loss 5.17e-05  maxQ +0.0185  changes   518  7.5 min
+episode 684/1013  eps 0.010  train return +168.95%  loss 4.88e-05  maxQ +0.0180  changes   521  7.5 min
+episode 685/1013  eps 0.010  train return  +89.66%  loss 5.07e-05  maxQ +0.0179  changes   531  7.5 min
+episode 686/1013  eps 0.010  train return +141.89%  loss 4.68e-05  maxQ +0.0178  changes   535  7.5 min
+episode 687/1013  eps 0.010  train return +140.88%  loss 4.79e-05  maxQ +0.0187  changes   522  7.5 min
+episode 688/1013  eps 0.010  train return  +40.72%  loss 4.76e-05  maxQ +0.0180  changes   462  7.5 min
+episode 689/1013  eps 0.010  train return  +74.07%  loss 4.76e-05  maxQ +0.0191  changes   493  7.5 min
+episode 690/1013  eps 0.010  train return +175.16%  loss 4.91e-05  maxQ +0.0195  changes   525  7.5 min | val return -3.53% (best +24.00%)
+episode 691/1013  eps 0.010  train return +113.10%  loss 4.48e-05  maxQ +0.0189  changes   512  7.6 min
+episode 692/1013  eps 0.010  train return +114.09%  loss 4.84e-05  maxQ +0.0188  changes   518  7.6 min
+episode 693/1013  eps 0.010  train return +137.56%  loss 4.94e-05  maxQ +0.0188  changes   534  7.6 min
+episode 694/1013  eps 0.010  train return  +46.52%  loss 4.93e-05  maxQ +0.0192  changes   527  7.6 min
+episode 695/1013  eps 0.010  train return  +88.82%  loss 4.91e-05  maxQ +0.0190  changes   517  7.6 min
+episode 696/1013  eps 0.010  train return +127.97%  loss 4.38e-05  maxQ +0.0185  changes   518  7.6 min
+episode 697/1013  eps 0.010  train return +380.92%  loss 4.84e-05  maxQ +0.0185  changes   529  7.6 min
+episode 698/1013  eps 0.010  train return +112.21%  loss 4.72e-05  maxQ +0.0189  changes   539  7.6 min
+episode 699/1013  eps 0.010  train return  +14.74%  loss 4.59e-05  maxQ +0.0186  changes   549  7.6 min
+episode 700/1013  eps 0.010  train return  +77.24%  loss 4.43e-05  maxQ +0.0179  changes   527  7.7 min | val return +0.91% (best +24.00%)
+episode 701/1013  eps 0.010  train return  +99.22%  loss 4.43e-05  maxQ +0.0186  changes   511  7.7 min
+episode 702/1013  eps 0.010  train return  +40.76%  loss 4.57e-05  maxQ +0.0187  changes   546  7.7 min
+episode 703/1013  eps 0.010  train return  +87.68%  loss 4.69e-05  maxQ +0.0185  changes   512  7.7 min
+episode 704/1013  eps 0.010  train return  +60.25%  loss 4.75e-05  maxQ +0.0189  changes   512  7.7 min
+episode 705/1013  eps 0.010  train return  +78.61%  loss 4.46e-05  maxQ +0.0189  changes   551  7.7 min
+episode 706/1013  eps 0.010  train return  +43.85%  loss 4.57e-05  maxQ +0.0191  changes   497  7.7 min
+episode 707/1013  eps 0.010  train return   -8.14%  loss 4.36e-05  maxQ +0.0184  changes   484  7.7 min
+episode 708/1013  eps 0.010  train return  +35.19%  loss 4.31e-05  maxQ +0.0185  changes   517  7.7 min
+episode 709/1013  eps 0.010  train return  +10.60%  loss 4.70e-05  maxQ +0.0182  changes   475  7.8 min
+episode 710/1013  eps 0.010  train return +234.25%  loss 4.33e-05  maxQ +0.0191  changes   512  7.8 min | val return +9.51% (best +24.00%)
+episode 711/1013  eps 0.010  train return  +84.13%  loss 4.53e-05  maxQ +0.0192  changes   520  7.8 min
+episode 712/1013  eps 0.010  train return +189.87%  loss 4.54e-05  maxQ +0.0187  changes   499  7.8 min
+episode 713/1013  eps 0.010  train return  +69.14%  loss 4.68e-05  maxQ +0.0187  changes   544  7.8 min
+episode 714/1013  eps 0.010  train return +133.11%  loss 4.44e-05  maxQ +0.0193  changes   496  7.8 min
+episode 715/1013  eps 0.010  train return  +41.07%  loss 4.22e-05  maxQ +0.0190  changes   549  7.8 min
+episode 716/1013  eps 0.010  train return +139.86%  loss 4.25e-05  maxQ +0.0188  changes   530  7.8 min
+episode 717/1013  eps 0.010  train return  +17.42%  loss 4.31e-05  maxQ +0.0182  changes   554  7.8 min
+episode 718/1013  eps 0.010  train return   +9.27%  loss 4.31e-05  maxQ +0.0180  changes   503  7.9 min
+episode 719/1013  eps 0.010  train return +239.64%  loss 4.90e-05  maxQ +0.0182  changes   530  7.9 min
+episode 720/1013  eps 0.010  train return +314.31%  loss 4.87e-05  maxQ +0.0185  changes   559  7.9 min | val return +10.88% (best +24.00%)
+episode 721/1013  eps 0.010  train return +119.16%  loss 4.89e-05  maxQ +0.0191  changes   498  7.9 min
+episode 722/1013  eps 0.010  train return  +41.19%  loss 4.39e-05  maxQ +0.0183  changes   534  7.9 min
+episode 723/1013  eps 0.010  train return +143.48%  loss 4.62e-05  maxQ +0.0190  changes   503  7.9 min
+episode 724/1013  eps 0.010  train return +101.28%  loss 4.61e-05  maxQ +0.0186  changes   538  7.9 min
+episode 725/1013  eps 0.010  train return  +58.12%  loss 4.50e-05  maxQ +0.0182  changes   520  7.9 min
+episode 726/1013  eps 0.010  train return  +32.18%  loss 4.50e-05  maxQ +0.0182  changes   456  8.0 min
+episode 727/1013  eps 0.010  train return  +85.57%  loss 4.38e-05  maxQ +0.0184  changes   512  8.0 min
+episode 728/1013  eps 0.010  train return +148.93%  loss 4.46e-05  maxQ +0.0184  changes   520  8.0 min
+episode 729/1013  eps 0.010  train return  +95.58%  loss 4.28e-05  maxQ +0.0184  changes   502  8.0 min
+episode 730/1013  eps 0.010  train return +245.88%  loss 4.30e-05  maxQ +0.0182  changes   534  8.0 min | val return -10.43% (best +24.00%)
+episode 731/1013  eps 0.010  train return +168.10%  loss 4.21e-05  maxQ +0.0182  changes   526  8.0 min
+episode 732/1013  eps 0.010  train return +260.93%  loss 4.89e-05  maxQ +0.0188  changes   535  8.0 min
+episode 733/1013  eps 0.010  train return  +14.88%  loss 4.27e-05  maxQ +0.0177  changes   483  8.0 min
+episode 734/1013  eps 0.010  train return +303.89%  loss 4.43e-05  maxQ +0.0174  changes   509  8.0 min
+episode 735/1013  eps 0.010  train return  +54.54%  loss 4.53e-05  maxQ +0.0180  changes   518  8.1 min
+episode 736/1013  eps 0.010  train return   +5.61%  loss 4.21e-05  maxQ +0.0180  changes   483  8.1 min
+episode 737/1013  eps 0.010  train return  +19.92%  loss 4.38e-05  maxQ +0.0183  changes   502  8.1 min
+episode 738/1013  eps 0.010  train return  +39.85%  loss 4.27e-05  maxQ +0.0180  changes   500  8.1 min
+episode 739/1013  eps 0.010  train return  +20.00%  loss 4.13e-05  maxQ +0.0186  changes   468  8.1 min
+episode 740/1013  eps 0.010  train return +206.44%  loss 4.28e-05  maxQ +0.0184  changes   522  8.1 min | val return -4.20% (best +24.00%)
+episode 741/1013  eps 0.010  train return  +22.62%  loss 4.44e-05  maxQ +0.0187  changes   507  8.1 min
+episode 742/1013  eps 0.010  train return  +45.89%  loss 4.36e-05  maxQ +0.0182  changes   525  8.1 min
+episode 743/1013  eps 0.010  train return +311.65%  loss 4.15e-05  maxQ +0.0182  changes   522  8.1 min
+episode 744/1013  eps 0.010  train return +133.63%  loss 4.47e-05  maxQ +0.0183  changes   532  8.2 min
+episode 745/1013  eps 0.010  train return  +74.21%  loss 4.50e-05  maxQ +0.0188  changes   519  8.2 min
+episode 746/1013  eps 0.010  train return  +48.45%  loss 4.32e-05  maxQ +0.0190  changes   483  8.2 min
+episode 747/1013  eps 0.010  train return  +19.00%  loss 4.53e-05  maxQ +0.0187  changes   520  8.2 min
+episode 748/1013  eps 0.010  train return  +48.13%  loss 4.32e-05  maxQ +0.0184  changes   504  8.2 min
+episode 749/1013  eps 0.010  train return   -3.55%  loss 4.38e-05  maxQ +0.0182  changes   484  8.2 min
+episode 750/1013  eps 0.010  train return  +39.39%  loss 4.25e-05  maxQ +0.0177  changes   514  8.2 min | val return -6.82% (best +24.00%)
+episode 751/1013  eps 0.010  train return  +18.63%  loss 4.17e-05  maxQ +0.0181  changes   455  8.2 min
+episode 752/1013  eps 0.010  train return +101.77%  loss 4.31e-05  maxQ +0.0187  changes   505  8.2 min
+episode 753/1013  eps 0.010  train return  +35.36%  loss 4.17e-05  maxQ +0.0187  changes   453  8.3 min
+episode 754/1013  eps 0.010  train return  +40.29%  loss 4.46e-05  maxQ +0.0181  changes   515  8.3 min
+episode 755/1013  eps 0.010  train return +149.51%  loss 4.38e-05  maxQ +0.0181  changes   522  8.3 min
+episode 756/1013  eps 0.010  train return +158.28%  loss 4.36e-05  maxQ +0.0189  changes   527  8.3 min
+episode 757/1013  eps 0.010  train return  +55.72%  loss 4.02e-05  maxQ +0.0187  changes   508  8.3 min
+episode 758/1013  eps 0.010  train return +110.77%  loss 4.08e-05  maxQ +0.0181  changes   494  8.3 min
+episode 759/1013  eps 0.010  train return   -5.04%  loss 4.23e-05  maxQ +0.0180  changes   489  8.3 min
+episode 760/1013  eps 0.010  train return +299.81%  loss 4.36e-05  maxQ +0.0179  changes   507  8.3 min | val return +5.15% (best +24.00%)
+episode 761/1013  eps 0.010  train return +189.15%  loss 4.63e-05  maxQ +0.0184  changes   543  8.4 min
+episode 762/1013  eps 0.010  train return  +47.14%  loss 4.41e-05  maxQ +0.0185  changes   499  8.4 min
+episode 763/1013  eps 0.010  train return +141.47%  loss 4.15e-05  maxQ +0.0183  changes   480  8.4 min
+episode 764/1013  eps 0.010  train return +159.89%  loss 4.36e-05  maxQ +0.0184  changes   533  8.4 min
+episode 765/1013  eps 0.010  train return +165.66%  loss 4.33e-05  maxQ +0.0185  changes   484  8.4 min
+episode 766/1013  eps 0.010  train return  +72.37%  loss 4.20e-05  maxQ +0.0178  changes   509  8.4 min
+episode 767/1013  eps 0.010  train return +420.04%  loss 4.45e-05  maxQ +0.0184  changes   492  8.4 min
+episode 768/1013  eps 0.010  train return  +95.59%  loss 4.34e-05  maxQ +0.0181  changes   471  8.4 min
+episode 769/1013  eps 0.010  train return +117.21%  loss 4.50e-05  maxQ +0.0181  changes   478  8.4 min
+episode 770/1013  eps 0.010  train return  +51.88%  loss 4.32e-05  maxQ +0.0178  changes   446  8.4 min | val return +0.52% (best +24.00%)
+episode 771/1013  eps 0.010  train return  +22.63%  loss 3.98e-05  maxQ +0.0172  changes   451  8.5 min
+episode 772/1013  eps 0.010  train return  +20.93%  loss 4.09e-05  maxQ +0.0179  changes   485  8.5 min
+episode 773/1013  eps 0.010  train return  +22.79%  loss 4.14e-05  maxQ +0.0180  changes   461  8.5 min
+episode 774/1013  eps 0.010  train return  +63.29%  loss 4.02e-05  maxQ +0.0176  changes   464  8.5 min
+episode 775/1013  eps 0.010  train return +190.03%  loss 4.29e-05  maxQ +0.0181  changes   482  8.5 min
+episode 776/1013  eps 0.010  train return  +28.69%  loss 3.94e-05  maxQ +0.0181  changes   486  8.5 min
+episode 777/1013  eps 0.010  train return   +9.93%  loss 4.20e-05  maxQ +0.0172  changes   465  8.5 min
+episode 778/1013  eps 0.010  train return  +10.03%  loss 4.06e-05  maxQ +0.0174  changes   465  8.5 min
+episode 779/1013  eps 0.010  train return +180.10%  loss 4.64e-05  maxQ +0.0179  changes   504  8.6 min
+episode 780/1013  eps 0.010  train return  +12.72%  loss 4.67e-05  maxQ +0.0177  changes   411  8.6 min | val return -6.72% (best +24.00%)
+episode 781/1013  eps 0.010  train return  +15.36%  loss 4.41e-05  maxQ +0.0183  changes   452  8.6 min
+episode 782/1013  eps 0.010  train return +144.07%  loss 4.19e-05  maxQ +0.0176  changes   497  8.6 min
+episode 783/1013  eps 0.010  train return  +73.04%  loss 4.27e-05  maxQ +0.0178  changes   470  8.6 min
+episode 784/1013  eps 0.010  train return  +49.30%  loss 4.11e-05  maxQ +0.0176  changes   459  8.6 min
+episode 785/1013  eps 0.010  train return +148.85%  loss 4.11e-05  maxQ +0.0173  changes   466  8.6 min
+episode 786/1013  eps 0.010  train return  +29.33%  loss 3.90e-05  maxQ +0.0176  changes   404  8.6 min
+episode 787/1013  eps 0.010  train return +138.29%  loss 3.96e-05  maxQ +0.0173  changes   437  8.6 min
+episode 788/1013  eps 0.010  train return +268.22%  loss 4.22e-05  maxQ +0.0177  changes   476  8.7 min
+episode 789/1013  eps 0.010  train return +107.06%  loss 3.89e-05  maxQ +0.0174  changes   467  8.7 min
+episode 790/1013  eps 0.010  train return  +38.31%  loss 3.72e-05  maxQ +0.0171  changes   425  8.7 min | val return +14.97% (best +24.00%)
+episode 791/1013  eps 0.010  train return  +40.58%  loss 3.96e-05  maxQ +0.0173  changes   455  8.7 min
+episode 792/1013  eps 0.010  train return   +6.13%  loss 3.83e-05  maxQ +0.0172  changes   423  8.7 min
+episode 793/1013  eps 0.010  train return +126.63%  loss 4.00e-05  maxQ +0.0178  changes   477  8.7 min
+episode 794/1013  eps 0.010  train return  +36.26%  loss 3.88e-05  maxQ +0.0168  changes   423  8.7 min
+episode 795/1013  eps 0.010  train return +265.59%  loss 3.86e-05  maxQ +0.0175  changes   485  8.7 min
+episode 796/1013  eps 0.010  train return +416.42%  loss 4.07e-05  maxQ +0.0175  changes   470  8.7 min
+episode 797/1013  eps 0.010  train return  +33.98%  loss 4.11e-05  maxQ +0.0172  changes   432  8.8 min
+episode 798/1013  eps 0.010  train return +192.40%  loss 4.13e-05  maxQ +0.0174  changes   477  8.8 min
+episode 799/1013  eps 0.010  train return +260.17%  loss 4.49e-05  maxQ +0.0176  changes   498  8.8 min
+episode 800/1013  eps 0.010  train return  +62.62%  loss 4.15e-05  maxQ +0.0181  changes   477  8.8 min | val return -7.91% (best +24.00%)
+episode 801/1013  eps 0.010  train return  +25.59%  loss 4.07e-05  maxQ +0.0172  changes   418  8.8 min
+episode 802/1013  eps 0.010  train return  +25.75%  loss 4.32e-05  maxQ +0.0177  changes   452  8.8 min
+episode 803/1013  eps 0.010  train return  +61.17%  loss 4.08e-05  maxQ +0.0173  changes   470  8.8 min
+episode 804/1013  eps 0.010  train return  +96.41%  loss 3.86e-05  maxQ +0.0176  changes   490  8.8 min
+episode 805/1013  eps 0.010  train return +158.72%  loss 4.39e-05  maxQ +0.0180  changes   452  8.8 min
+episode 806/1013  eps 0.010  train return  +25.40%  loss 4.45e-05  maxQ +0.0180  changes   391  8.9 min
+episode 807/1013  eps 0.010  train return  +61.58%  loss 4.28e-05  maxQ +0.0176  changes   446  8.9 min
+episode 808/1013  eps 0.010  train return +236.09%  loss 4.02e-05  maxQ +0.0173  changes   494  8.9 min
+episode 809/1013  eps 0.010  train return  +84.82%  loss 4.02e-05  maxQ +0.0170  changes   477  8.9 min
+episode 810/1013  eps 0.010  train return  +38.61%  loss 4.28e-05  maxQ +0.0182  changes   399  8.9 min | val return -17.43% (best +24.00%)
+episode 811/1013  eps 0.010  train return  +36.21%  loss 4.14e-05  maxQ +0.0184  changes   387  8.9 min
+episode 812/1013  eps 0.010  train return +242.02%  loss 4.13e-05  maxQ +0.0174  changes   461  8.9 min
+episode 813/1013  eps 0.010  train return  +38.14%  loss 4.19e-05  maxQ +0.0177  changes   398  8.9 min
+episode 814/1013  eps 0.010  train return  +52.43%  loss 4.17e-05  maxQ +0.0178  changes   441  8.9 min
+episode 815/1013  eps 0.010  train return  +78.65%  loss 4.10e-05  maxQ +0.0179  changes   403  9.0 min
+episode 816/1013  eps 0.010  train return  +67.38%  loss 4.11e-05  maxQ +0.0181  changes   460  9.0 min
+episode 817/1013  eps 0.010  train return +226.10%  loss 4.03e-05  maxQ +0.0174  changes   482  9.0 min
+episode 818/1013  eps 0.010  train return +113.15%  loss 4.90e-05  maxQ +0.0181  changes   482  9.0 min
+episode 819/1013  eps 0.010  train return +101.27%  loss 4.50e-05  maxQ +0.0185  changes   508  9.0 min
+episode 820/1013  eps 0.010  train return  +47.43%  loss 4.79e-05  maxQ +0.0181  changes   514  9.0 min | val return -10.73% (best +24.00%)
+episode 821/1013  eps 0.010  train return  +37.04%  loss 4.65e-05  maxQ +0.0181  changes   411  9.0 min
+episode 822/1013  eps 0.010  train return  +41.26%  loss 4.39e-05  maxQ +0.0189  changes   427  9.0 min
+episode 823/1013  eps 0.010  train return +230.89%  loss 4.75e-05  maxQ +0.0191  changes   443  9.0 min
+episode 824/1013  eps 0.010  train return  +80.64%  loss 4.51e-05  maxQ +0.0181  changes   458  9.1 min
+episode 825/1013  eps 0.010  train return  +48.88%  loss 4.42e-05  maxQ +0.0182  changes   386  9.1 min
+episode 826/1013  eps 0.010  train return +335.31%  loss 4.34e-05  maxQ +0.0181  changes   495  9.1 min
+episode 827/1013  eps 0.010  train return +279.14%  loss 4.44e-05  maxQ +0.0174  changes   460  9.1 min
+episode 828/1013  eps 0.010  train return +491.96%  loss 4.66e-05  maxQ +0.0175  changes   495  9.1 min
+episode 829/1013  eps 0.010  train return  +39.10%  loss 4.95e-05  maxQ +0.0186  changes   474  9.1 min
+episode 830/1013  eps 0.010  train return +152.47%  loss 4.84e-05  maxQ +0.0179  changes   464  9.1 min | val return -11.21% (best +24.00%)
+episode 831/1013  eps 0.010  train return +226.36%  loss 4.69e-05  maxQ +0.0183  changes   482  9.1 min
+episode 832/1013  eps 0.010  train return  +49.18%  loss 4.56e-05  maxQ +0.0181  changes   458  9.1 min
+episode 833/1013  eps 0.010  train return   +1.29%  loss 4.74e-05  maxQ +0.0181  changes   373  9.2 min
+episode 834/1013  eps 0.010  train return  +42.20%  loss 4.32e-05  maxQ +0.0178  changes   488  9.2 min
+episode 835/1013  eps 0.010  train return +246.35%  loss 4.52e-05  maxQ +0.0185  changes   487  9.2 min
+episode 836/1013  eps 0.010  train return +115.74%  loss 4.11e-05  maxQ +0.0187  changes   436  9.2 min
+episode 837/1013  eps 0.010  train return +570.38%  loss 4.15e-05  maxQ +0.0185  changes   507  9.2 min
+episode 838/1013  eps 0.010  train return  +53.50%  loss 4.30e-05  maxQ +0.0185  changes   455  9.2 min
+episode 839/1013  eps 0.010  train return  +77.65%  loss 4.24e-05  maxQ +0.0187  changes   469  9.2 min
+episode 840/1013  eps 0.010  train return  +26.21%  loss 4.13e-05  maxQ +0.0185  changes   397  9.2 min | val return +4.47% (best +24.00%)
+episode 841/1013  eps 0.010  train return  +88.38%  loss 4.22e-05  maxQ +0.0181  changes   452  9.2 min
+episode 842/1013  eps 0.010  train return +212.65%  loss 4.63e-05  maxQ +0.0182  changes   501  9.3 min
+episode 843/1013  eps 0.010  train return  +52.28%  loss 4.57e-05  maxQ +0.0183  changes   453  9.3 min
+episode 844/1013  eps 0.010  train return +366.56%  loss 4.31e-05  maxQ +0.0184  changes   479  9.3 min
+episode 845/1013  eps 0.010  train return  +70.41%  loss 4.69e-05  maxQ +0.0183  changes   425  9.3 min
+episode 846/1013  eps 0.010  train return  +98.21%  loss 4.36e-05  maxQ +0.0183  changes   479  9.3 min
+episode 847/1013  eps 0.010  train return  +85.09%  loss 4.66e-05  maxQ +0.0183  changes   417  9.3 min
+episode 848/1013  eps 0.010  train return  +41.92%  loss 4.55e-05  maxQ +0.0183  changes   441  9.3 min
+episode 849/1013  eps 0.010  train return +206.64%  loss 4.46e-05  maxQ +0.0186  changes   462  9.3 min
+episode 850/1013  eps 0.010  train return +227.10%  loss 4.77e-05  maxQ +0.0188  changes   468  9.3 min | val return +3.59% (best +24.00%)
+episode 851/1013  eps 0.010  train return +232.14%  loss 4.65e-05  maxQ +0.0187  changes   515  9.4 min
+episode 852/1013  eps 0.010  train return  +47.61%  loss 4.66e-05  maxQ +0.0184  changes   414  9.4 min
+episode 853/1013  eps 0.010  train return +295.47%  loss 4.54e-05  maxQ +0.0191  changes   482  9.4 min
+episode 854/1013  eps 0.010  train return  +37.73%  loss 4.73e-05  maxQ +0.0197  changes   421  9.4 min
+episode 855/1013  eps 0.010  train return  +30.65%  loss 4.76e-05  maxQ +0.0198  changes   437  9.4 min
+episode 856/1013  eps 0.010  train return +157.26%  loss 4.99e-05  maxQ +0.0196  changes   442  9.4 min
+episode 857/1013  eps 0.010  train return +329.25%  loss 4.71e-05  maxQ +0.0200  changes   502  9.4 min
+episode 858/1013  eps 0.010  train return +427.98%  loss 4.62e-05  maxQ +0.0195  changes   507  9.4 min
+episode 859/1013  eps 0.010  train return  +34.32%  loss 4.43e-05  maxQ +0.0193  changes   429  9.4 min
+episode 860/1013  eps 0.010  train return  +64.38%  loss 4.69e-05  maxQ +0.0191  changes   450  9.5 min | val return -3.29% (best +24.00%)
+episode 861/1013  eps 0.010  train return  +15.53%  loss 4.75e-05  maxQ +0.0192  changes   404  9.5 min
+episode 862/1013  eps 0.010  train return +173.25%  loss 4.50e-05  maxQ +0.0194  changes   507  9.5 min
+episode 863/1013  eps 0.010  train return  +80.25%  loss 4.79e-05  maxQ +0.0197  changes   439  9.5 min
+episode 864/1013  eps 0.010  train return +108.01%  loss 4.49e-05  maxQ +0.0199  changes   499  9.5 min
+episode 865/1013  eps 0.010  train return  +92.27%  loss 4.71e-05  maxQ +0.0193  changes   478  9.5 min
+episode 866/1013  eps 0.010  train return +126.65%  loss 4.65e-05  maxQ +0.0194  changes   504  9.5 min
+episode 867/1013  eps 0.010  train return  +20.27%  loss 4.63e-05  maxQ +0.0196  changes   458  9.5 min
+episode 868/1013  eps 0.010  train return  +36.44%  loss 4.64e-05  maxQ +0.0201  changes   458  9.6 min
+episode 869/1013  eps 0.010  train return +228.04%  loss 4.89e-05  maxQ +0.0208  changes   479  9.6 min
+episode 870/1013  eps 0.010  train return +151.31%  loss 4.74e-05  maxQ +0.0202  changes   476  9.6 min | val return -5.97% (best +24.00%)
+episode 871/1013  eps 0.010  train return  +59.08%  loss 4.51e-05  maxQ +0.0202  changes   414  9.6 min
+episode 872/1013  eps 0.010  train return +194.32%  loss 4.79e-05  maxQ +0.0206  changes   439  9.6 min
+episode 873/1013  eps 0.010  train return +216.93%  loss 5.04e-05  maxQ +0.0206  changes   502  9.6 min
+episode 874/1013  eps 0.010  train return +408.84%  loss 5.03e-05  maxQ +0.0205  changes   475  9.6 min
+episode 875/1013  eps 0.010  train return  +35.39%  loss 4.51e-05  maxQ +0.0204  changes   424  9.6 min
+episode 876/1013  eps 0.010  train return   +7.50%  loss 5.11e-05  maxQ +0.0205  changes   446  9.6 min
+episode 877/1013  eps 0.010  train return  +45.10%  loss 4.83e-05  maxQ +0.0205  changes   470  9.7 min
+episode 878/1013  eps 0.010  train return  +33.94%  loss 4.94e-05  maxQ +0.0204  changes   392  9.7 min
+episode 879/1013  eps 0.010  train return  +40.20%  loss 4.67e-05  maxQ +0.0203  changes   452  9.7 min
+episode 880/1013  eps 0.010  train return +172.47%  loss 4.69e-05  maxQ +0.0202  changes   477  9.7 min | val return +0.26% (best +24.00%)
+episode 881/1013  eps 0.010  train return  +28.73%  loss 4.80e-05  maxQ +0.0199  changes   385  9.7 min
+episode 882/1013  eps 0.010  train return +101.81%  loss 4.82e-05  maxQ +0.0196  changes   472  9.7 min
+episode 883/1013  eps 0.010  train return  +85.51%  loss 4.50e-05  maxQ +0.0191  changes   457  9.7 min
+episode 884/1013  eps 0.010  train return +196.55%  loss 4.43e-05  maxQ +0.0194  changes   491  9.7 min
+episode 885/1013  eps 0.010  train return +177.07%  loss 4.56e-05  maxQ +0.0199  changes   521  9.7 min
+episode 886/1013  eps 0.010  train return +148.08%  loss 4.97e-05  maxQ +0.0189  changes   495  9.8 min
+episode 887/1013  eps 0.010  train return  +55.25%  loss 5.08e-05  maxQ +0.0184  changes   460  9.8 min
+episode 888/1013  eps 0.010  train return  +97.03%  loss 4.83e-05  maxQ +0.0196  changes   460  9.8 min
+episode 889/1013  eps 0.010  train return  +62.62%  loss 4.88e-05  maxQ +0.0197  changes   464  9.8 min
+episode 890/1013  eps 0.010  train return  +12.60%  loss 4.44e-05  maxQ +0.0199  changes   352  9.8 min | val return -8.50% (best +24.00%)
+episode 891/1013  eps 0.010  train return +127.47%  loss 4.50e-05  maxQ +0.0198  changes   433  9.8 min
+episode 892/1013  eps 0.010  train return  +54.47%  loss 4.46e-05  maxQ +0.0194  changes   415  9.8 min
+episode 893/1013  eps 0.010  train return +108.66%  loss 4.26e-05  maxQ +0.0195  changes   455  9.8 min
+episode 894/1013  eps 0.010  train return   -5.74%  loss 4.57e-05  maxQ +0.0197  changes   354  9.9 min
+episode 895/1013  eps 0.010  train return +347.25%  loss 4.42e-05  maxQ +0.0197  changes   478  9.9 min
+episode 896/1013  eps 0.010  train return +282.28%  loss 4.40e-05  maxQ +0.0192  changes   475  9.9 min
+episode 897/1013  eps 0.010  train return  +55.52%  loss 4.21e-05  maxQ +0.0186  changes   491  9.9 min
+episode 898/1013  eps 0.010  train return +237.41%  loss 4.30e-05  maxQ +0.0190  changes   512  9.9 min
+episode 899/1013  eps 0.010  train return  +31.78%  loss 4.56e-05  maxQ +0.0187  changes   370  9.9 min
+episode 900/1013  eps 0.010  train return +761.76%  loss 4.58e-05  maxQ +0.0180  changes   502  9.9 min | val return -2.94% (best +24.00%)
+episode 901/1013  eps 0.010  train return +346.56%  loss 4.53e-05  maxQ +0.0183  changes   477  9.9 min
+episode 902/1013  eps 0.010  train return  +28.11%  loss 4.47e-05  maxQ +0.0182  changes   376  9.9 min
+episode 903/1013  eps 0.010  train return +255.37%  loss 4.56e-05  maxQ +0.0178  changes   464  10.0 min
+episode 904/1013  eps 0.010  train return +125.37%  loss 4.69e-05  maxQ +0.0183  changes   503  10.0 min
+episode 905/1013  eps 0.010  train return  +95.38%  loss 4.62e-05  maxQ +0.0173  changes   449  10.0 min
+episode 906/1013  eps 0.010  train return  +65.44%  loss 4.55e-05  maxQ +0.0178  changes   459  10.0 min
+episode 907/1013  eps 0.010  train return  +16.92%  loss 4.45e-05  maxQ +0.0184  changes   442  10.0 min
+episode 908/1013  eps 0.010  train return +114.30%  loss 4.30e-05  maxQ +0.0181  changes   461  10.0 min
+episode 909/1013  eps 0.010  train return +120.28%  loss 4.58e-05  maxQ +0.0184  changes   482  10.0 min
+episode 910/1013  eps 0.010  train return +196.30%  loss 4.38e-05  maxQ +0.0183  changes   456  10.0 min | val return -3.62% (best +24.00%)
+episode 911/1013  eps 0.010  train return   +5.01%  loss 4.44e-05  maxQ +0.0181  changes   396  10.0 min
+episode 912/1013  eps 0.010  train return  +49.50%  loss 4.57e-05  maxQ +0.0187  changes   417  10.1 min
+episode 913/1013  eps 0.010  train return  +88.30%  loss 4.33e-05  maxQ +0.0188  changes   460  10.1 min
+episode 914/1013  eps 0.010  train return +190.42%  loss 4.39e-05  maxQ +0.0189  changes   486  10.1 min
+episode 915/1013  eps 0.010  train return  +63.94%  loss 4.47e-05  maxQ +0.0191  changes   465  10.1 min
+episode 916/1013  eps 0.010  train return +204.03%  loss 4.49e-05  maxQ +0.0185  changes   503  10.1 min
+episode 917/1013  eps 0.010  train return  +29.26%  loss 4.36e-05  maxQ +0.0186  changes   391  10.1 min
+episode 918/1013  eps 0.010  train return  +34.84%  loss 4.53e-05  maxQ +0.0188  changes   466  10.1 min
+episode 919/1013  eps 0.010  train return  +45.37%  loss 4.45e-05  maxQ +0.0190  changes   441  10.1 min
+episode 920/1013  eps 0.010  train return +285.15%  loss 4.49e-05  maxQ +0.0191  changes   479  10.1 min | val return -17.56% (best +24.00%)
+episode 921/1013  eps 0.010  train return  +40.92%  loss 4.21e-05  maxQ +0.0189  changes   461  10.2 min
+episode 922/1013  eps 0.010  train return +253.15%  loss 4.19e-05  maxQ +0.0184  changes   501  10.2 min
+episode 923/1013  eps 0.010  train return +228.80%  loss 4.22e-05  maxQ +0.0183  changes   488  10.2 min
+episode 924/1013  eps 0.010  train return  +86.89%  loss 4.10e-05  maxQ +0.0181  changes   454  10.2 min
+episode 925/1013  eps 0.010  train return  +86.30%  loss 4.37e-05  maxQ +0.0173  changes   451  10.2 min
+episode 926/1013  eps 0.010  train return  +79.70%  loss 3.99e-05  maxQ +0.0177  changes   448  10.2 min
+episode 927/1013  eps 0.010  train return +199.08%  loss 4.28e-05  maxQ +0.0181  changes   486  10.2 min
+episode 928/1013  eps 0.010  train return   +0.17%  loss 4.06e-05  maxQ +0.0182  changes   386  10.2 min
+episode 929/1013  eps 0.010  train return  +69.90%  loss 4.11e-05  maxQ +0.0178  changes   461  10.3 min
+episode 930/1013  eps 0.010  train return +695.50%  loss 4.07e-05  maxQ +0.0183  changes   496  10.3 min | val return -3.94% (best +24.00%)
+episode 931/1013  eps 0.010  train return +151.28%  loss 4.26e-05  maxQ +0.0184  changes   487  10.3 min
+episode 932/1013  eps 0.010  train return  +56.64%  loss 4.21e-05  maxQ +0.0191  changes   444  10.3 min
+episode 933/1013  eps 0.010  train return +145.37%  loss 4.28e-05  maxQ +0.0179  changes   476  10.3 min
+episode 934/1013  eps 0.010  train return  +26.03%  loss 4.26e-05  maxQ +0.0188  changes   493  10.3 min
+episode 935/1013  eps 0.010  train return  +87.05%  loss 4.12e-05  maxQ +0.0183  changes   493  10.3 min
+episode 936/1013  eps 0.010  train return +474.95%  loss 3.94e-05  maxQ +0.0183  changes   453  10.3 min
+episode 937/1013  eps 0.010  train return +162.84%  loss 3.99e-05  maxQ +0.0184  changes   488  10.3 min
+episode 938/1013  eps 0.010  train return +282.97%  loss 4.36e-05  maxQ +0.0184  changes   464  10.4 min
+episode 939/1013  eps 0.010  train return +122.28%  loss 4.47e-05  maxQ +0.0188  changes   430  10.4 min
+episode 940/1013  eps 0.010  train return  +21.54%  loss 4.27e-05  maxQ +0.0188  changes   368  10.4 min | val return -7.04% (best +24.00%)
+episode 941/1013  eps 0.010  train return  +26.32%  loss 4.34e-05  maxQ +0.0189  changes   405  10.4 min
+episode 942/1013  eps 0.010  train return +171.93%  loss 4.26e-05  maxQ +0.0187  changes   485  10.4 min
+episode 943/1013  eps 0.010  train return +162.92%  loss 4.38e-05  maxQ +0.0177  changes   509  10.4 min
+episode 944/1013  eps 0.010  train return  +29.75%  loss 4.43e-05  maxQ +0.0190  changes   470  10.4 min
+episode 945/1013  eps 0.010  train return +250.77%  loss 4.47e-05  maxQ +0.0187  changes   513  10.4 min
+episode 946/1013  eps 0.010  train return +157.09%  loss 4.40e-05  maxQ +0.0187  changes   497  10.4 min
+episode 947/1013  eps 0.010  train return +142.53%  loss 4.72e-05  maxQ +0.0190  changes   499  10.5 min
+episode 948/1013  eps 0.010  train return  +61.17%  loss 4.27e-05  maxQ +0.0188  changes   445  10.5 min
+episode 949/1013  eps 0.010  train return  +92.66%  loss 4.33e-05  maxQ +0.0188  changes   486  10.5 min
+episode 950/1013  eps 0.010  train return  +20.72%  loss 4.08e-05  maxQ +0.0188  changes   468  10.5 min | val return -6.29% (best +24.00%)
+episode 951/1013  eps 0.010  train return  +37.66%  loss 4.53e-05  maxQ +0.0194  changes   471  10.5 min
+episode 952/1013  eps 0.010  train return +234.19%  loss 4.43e-05  maxQ +0.0193  changes   487  10.5 min
+episode 953/1013  eps 0.010  train return  +54.61%  loss 4.59e-05  maxQ +0.0190  changes   433  10.5 min
+episode 954/1013  eps 0.010  train return  +11.04%  loss 4.46e-05  maxQ +0.0194  changes   474  10.5 min
+episode 955/1013  eps 0.010  train return +303.14%  loss 4.42e-05  maxQ +0.0187  changes   506  10.6 min
+episode 956/1013  eps 0.010  train return  +40.77%  loss 4.34e-05  maxQ +0.0190  changes   497  10.6 min
+episode 957/1013  eps 0.010  train return  +13.42%  loss 4.33e-05  maxQ +0.0181  changes   446  10.6 min
+episode 958/1013  eps 0.010  train return  +23.13%  loss 4.23e-05  maxQ +0.0180  changes   419  10.6 min
+episode 959/1013  eps 0.010  train return +108.29%  loss 4.29e-05  maxQ +0.0174  changes   500  10.6 min
+episode 960/1013  eps 0.010  train return +232.08%  loss 4.19e-05  maxQ +0.0177  changes   488  10.6 min | val return +8.98% (best +24.00%)
+episode 961/1013  eps 0.010  train return +196.74%  loss 4.22e-05  maxQ +0.0181  changes   482  10.6 min
+episode 962/1013  eps 0.010  train return  +69.29%  loss 4.32e-05  maxQ +0.0189  changes   462  10.6 min
+episode 963/1013  eps 0.010  train return   +5.01%  loss 4.40e-05  maxQ +0.0188  changes   371  10.6 min
+episode 964/1013  eps 0.010  train return  +51.42%  loss 4.29e-05  maxQ +0.0181  changes   422  10.7 min
+episode 965/1013  eps 0.010  train return  +51.79%  loss 4.21e-05  maxQ +0.0184  changes   476  10.7 min
+episode 966/1013  eps 0.010  train return +256.18%  loss 4.34e-05  maxQ +0.0177  changes   501  10.7 min
+episode 967/1013  eps 0.010  train return +299.81%  loss 4.60e-05  maxQ +0.0185  changes   507  10.7 min
+episode 968/1013  eps 0.010  train return  +83.24%  loss 4.44e-05  maxQ +0.0184  changes   477  10.7 min
+episode 969/1013  eps 0.010  train return +339.66%  loss 4.36e-05  maxQ +0.0181  changes   473  10.7 min
+episode 970/1013  eps 0.010  train return  +74.07%  loss 4.39e-05  maxQ +0.0180  changes   441  10.7 min | val return -8.19% (best +24.00%)
+episode 971/1013  eps 0.010  train return +333.32%  loss 4.38e-05  maxQ +0.0182  changes   508  10.7 min
+episode 972/1013  eps 0.010  train return   +5.40%  loss 4.43e-05  maxQ +0.0183  changes   444  10.7 min
+episode 973/1013  eps 0.010  train return +103.33%  loss 4.53e-05  maxQ +0.0183  changes   476  10.8 min
+episode 974/1013  eps 0.010  train return  +69.58%  loss 4.36e-05  maxQ +0.0186  changes   479  10.8 min
+episode 975/1013  eps 0.010  train return +175.10%  loss 4.21e-05  maxQ +0.0184  changes   489  10.8 min
+episode 976/1013  eps 0.010  train return +242.96%  loss 4.28e-05  maxQ +0.0177  changes   471  10.8 min
+episode 977/1013  eps 0.010  train return +112.31%  loss 4.18e-05  maxQ +0.0181  changes   449  10.8 min
+episode 978/1013  eps 0.010  train return  +61.93%  loss 4.17e-05  maxQ +0.0176  changes   433  10.8 min
+episode 979/1013  eps 0.010  train return  +58.75%  loss 4.22e-05  maxQ +0.0178  changes   428  10.8 min
+episode 980/1013  eps 0.010  train return  +38.17%  loss 4.49e-05  maxQ +0.0183  changes   446  10.8 min | val return +5.85% (best +24.00%)
+episode 981/1013  eps 0.010  train return  +57.12%  loss 4.29e-05  maxQ +0.0180  changes   415  10.9 min
+episode 982/1013  eps 0.010  train return  +19.08%  loss 4.17e-05  maxQ +0.0179  changes   423  10.9 min
+episode 983/1013  eps 0.010  train return  +64.07%  loss 4.08e-05  maxQ +0.0178  changes   476  10.9 min
+episode 984/1013  eps 0.010  train return +138.57%  loss 4.01e-05  maxQ +0.0177  changes   451  10.9 min
+episode 985/1013  eps 0.010  train return +103.42%  loss 4.31e-05  maxQ +0.0180  changes   457  10.9 min
+episode 986/1013  eps 0.010  train return  +63.54%  loss 4.40e-05  maxQ +0.0176  changes   444  10.9 min
+episode 987/1013  eps 0.010  train return +186.25%  loss 4.11e-05  maxQ +0.0179  changes   516  10.9 min
+episode 988/1013  eps 0.010  train return +200.11%  loss 4.36e-05  maxQ +0.0174  changes   495  10.9 min
+episode 989/1013  eps 0.010  train return  +34.59%  loss 4.11e-05  maxQ +0.0179  changes   445  10.9 min
+episode 990/1013  eps 0.010  train return  +16.24%  loss 4.28e-05  maxQ +0.0183  changes   389  10.9 min | val return +10.91% (best +24.00%)
+episode 991/1013  eps 0.010  train return +252.12%  loss 4.31e-05  maxQ +0.0179  changes   484  11.0 min
+episode 992/1013  eps 0.010  train return  +65.37%  loss 4.13e-05  maxQ +0.0178  changes   452  11.0 min
+episode 993/1013  eps 0.010  train return  +34.49%  loss 3.98e-05  maxQ +0.0168  changes   462  11.0 min
+episode 994/1013  eps 0.010  train return  +91.16%  loss 4.22e-05  maxQ +0.0169  changes   423  11.0 min
+episode 995/1013  eps 0.010  train return  +98.96%  loss 4.21e-05  maxQ +0.0175  changes   439  11.0 min
+episode 996/1013  eps 0.010  train return +236.93%  loss 4.26e-05  maxQ +0.0183  changes   474  11.0 min
+episode 997/1013  eps 0.010  train return  +72.30%  loss 4.38e-05  maxQ +0.0182  changes   427  11.0 min
+episode 998/1013  eps 0.010  train return  +59.26%  loss 4.35e-05  maxQ +0.0180  changes   418  11.0 min
+episode 999/1013  eps 0.010  train return  +86.99%  loss 4.26e-05  maxQ +0.0177  changes   472  11.1 min
+episode 1000/1013  eps 0.010  train return  +72.41%  loss 4.42e-05  maxQ +0.0183  changes   437  11.1 min | val return -8.44% (best +24.00%)
+episode 1001/1013  eps 0.010  train return  +31.44%  loss 4.34e-05  maxQ +0.0186  changes   403  11.1 min
+episode 1002/1013  eps 0.010  train return +281.74%  loss 4.50e-05  maxQ +0.0174  changes   499  11.1 min
+episode 1003/1013  eps 0.010  train return +139.85%  loss 4.26e-05  maxQ +0.0178  changes   445  11.1 min
+episode 1004/1013  eps 0.010  train return  +39.83%  loss 4.24e-05  maxQ +0.0186  changes   336  11.1 min
+episode 1005/1013  eps 0.010  train return  +26.95%  loss 4.09e-05  maxQ +0.0175  changes   375  11.1 min
+episode 1006/1013  eps 0.010  train return  +83.56%  loss 3.91e-05  maxQ +0.0170  changes   415  11.1 min
+episode 1007/1013  eps 0.010  train return  +73.11%  loss 4.33e-05  maxQ +0.0175  changes   422  11.1 min
+episode 1008/1013  eps 0.010  train return  +35.43%  loss 4.10e-05  maxQ +0.0176  changes   372  11.2 min
+episode 1009/1013  eps 0.010  train return  +42.29%  loss 3.97e-05  maxQ +0.0182  changes   405  11.2 min
+episode 1010/1013  eps 0.010  train return +143.12%  loss 4.14e-05  maxQ +0.0179  changes   506  11.2 min | val return -5.87% (best +24.00%)
+episode 1011/1013  eps 0.010  train return +248.21%  loss 4.11e-05  maxQ +0.0170  changes   423  11.2 min
+episode 1012/1013  eps 0.010  train return  +66.11%  loss 4.05e-05  maxQ +0.0177  changes   365  11.2 min
+episode 1013/1013  eps 0.010  train return  +16.50%  loss 3.83e-05  maxQ +0.0175  changes   353  11.2 min | val return +3.35% (best +24.00%)
+model    env  portfolio_return  excess_return  n_changes
+ last    val          0.033481       0.076099      879.9
+ last val_w1         -0.021118       0.005797      447.9
+ last val_w2          0.047415       0.062849      447.7
+ best    val          0.239291       0.281909      810.9
+ best val_w1          0.162074       0.188989      442.9
+ best val_w2          0.059956       0.075390      380.6

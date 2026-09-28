@@ -1,0 +1,37 @@
+{
+  "exp_id": "exp02_random_starts",
+  "description": "EXP-02: baseline with random-start episodes of 720 steps (max_episode_duration 721) instead of full passes; same number of updates (1,013 x 720 = 729,360 vs 100 x 7,295); epsilon decay 0.9909 per episode so epsilon reaches 0.01 after half of training, as in the baseline.",
+  "agent": "dqn",
+  "features": "default",
+  "positions": [
+    -1,
+    0,
+    0.5,
+    1,
+    2
+  ],
+  "env": {
+    "max_episode_duration": 721
+  },
+  "agent_params": {
+    "lr": 0.0001,
+    "gamma": 0.99,
+    "epsilon": 1.0,
+    "epsilon_decay": 0.9909,
+    "epsilon_min": 0.01,
+    "batch_size": 64,
+    "target_update_freq": 250,
+    "replay_buffer_size": 50000,
+    "hidden_size": 128
+  },
+  "train": {
+    "episodes": 1013,
+    "eval_every": 10,
+    "val_envs": [
+      "val"
+    ],
+    "val_episodes": 5
+  },
+  "parent": "baseline",
+  "seed": 1
+}
